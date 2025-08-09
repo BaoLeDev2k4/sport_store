@@ -1,0 +1,6227 @@
+[{
+  "_id": {
+    "$oid": "67b87771c8ab0a6e2e0dd8cb"
+  },
+  "name": "Quần Thể Thao Nam 7\" Ultra Shorts",
+  "idcate": {
+    "$oid": "67b0a4fbb5a39baf9de368ff"
+  },
+  "colors": [
+    "Đen",
+    "Xám",
+    "Xanh navy"
+  ],
+  "sizes": [
+    "M",
+    "L",
+    "XL"
+  ],
+  "images": [
+    "donam3_black.webp",
+    "donam3_gray.webp",
+    "donam3_navy.webp"
+  ],
+  "variants": [
+    {
+      "_id": {
+        "$oid": "67c5bebc79592ee47bae7460"
+      },
+      "option": "M - Đen",
+      "size": "M",
+      "color": "Đen",
+      "price": 139000,
+      "sale_price": 0,
+      "image": "donam3_black.webp",
+      "quantity": 85
+    },
+    {
+      "_id": {
+        "$oid": "67c5bebc79592ee47bae7461"
+      },
+      "option": "L - Đen",
+      "size": "L",
+      "color": "Đen",
+      "price": 149000,
+      "sale_price": 0,
+      "image": "donam3_black.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67c5bebc79592ee47bae7462"
+      },
+      "option": "XL - Đen",
+      "size": "XL",
+      "color": "Đen",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "donam3_black.webp",
+      "quantity": 98
+    },
+    {
+      "_id": {
+        "$oid": "67c5bebc79592ee47bae7463"
+      },
+      "option": "M - Xám",
+      "size": "M",
+      "color": "Xám",
+      "price": 139000,
+      "sale_price": 0,
+      "image": "donam3_gray.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67c5bebc79592ee47bae7464"
+      },
+      "option": "L - Xám",
+      "size": "L",
+      "color": "Xám",
+      "price": 149000,
+      "sale_price": 0,
+      "image": "donam3_gray.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67c5bebc79592ee47bae7465"
+      },
+      "option": "XL - Xám",
+      "size": "XL",
+      "color": "Xám",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "donam3_gray.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67c5bebc79592ee47bae7466"
+      },
+      "option": "M - Xanh navy",
+      "size": "M",
+      "color": "Xanh navy",
+      "price": 139000,
+      "sale_price": 0,
+      "image": "donam3_navy.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67c5bebc79592ee47bae7467"
+      },
+      "option": "L - Xanh navy",
+      "size": "L",
+      "color": "Xanh navy",
+      "price": 149000,
+      "sale_price": 0,
+      "image": "donam3_navy.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67c5bebc79592ee47bae7468"
+      },
+      "option": "XL - Xanh navy",
+      "size": "XL",
+      "color": "Xanh navy",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "donam3_navy.webp",
+      "quantity": 99
+    }
+  ],
+  "hot": 0,
+  "view": 8,
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-06-21T12:54:09.583Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-21T10:54:58.337Z"
+  },
+  "__v": 0,
+  "description": "Mẫu quần thể thao được xử lí hoàn thiện giúp nhanh khô thoáng khi vận động. Thiết kế hiện đại, năng động, phù hợp cho cả luyện tập và mặc thường ngày.",
+  "flag": true
+},
+{
+  "_id": {
+    "$oid": "67b877c7c8ab0a6e2e0dd8d0"
+  },
+  "name": "Áo Polo nam Premium Pique",
+  "idcate": {
+    "$oid": "67b0a4fbb5a39baf9de368ff"
+  },
+  "colors": [
+    "Trắng",
+    "Xanh dương",
+    "Xanh rêu"
+  ],
+  "sizes": [
+    "M",
+    "L",
+    "XL"
+  ],
+  "images": [
+    "donam4_white.webp",
+    "donam4_blue.webp",
+    "donam4_green.webp"
+  ],
+  "variants": [
+    {
+      "option": "M - Trắng",
+      "size": "M",
+      "color": "Trắng",
+      "price": 139000,
+      "sale_price": 0,
+      "image": "donam4_white.webp",
+      "quantity": 93,
+      "_id": {
+        "$oid": "689377552e8fca191aabf884"
+      }
+    },
+    {
+      "option": "L - Trắng",
+      "size": "L",
+      "color": "Trắng",
+      "price": 149000,
+      "sale_price": 0,
+      "image": "donam4_white.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689377552e8fca191aabf885"
+      }
+    },
+    {
+      "option": "XL - Trắng",
+      "size": "XL",
+      "color": "Trắng",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "donam4_white.webp",
+      "quantity": 98,
+      "_id": {
+        "$oid": "689377552e8fca191aabf886"
+      }
+    },
+    {
+      "option": "M - Xanh dương",
+      "size": "M",
+      "color": "Xanh dương",
+      "price": 139000,
+      "sale_price": 0,
+      "image": "donam4_blue.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689377552e8fca191aabf887"
+      }
+    },
+    {
+      "option": "L - Xanh dương",
+      "size": "L",
+      "color": "Xanh dương",
+      "price": 149000,
+      "sale_price": 0,
+      "image": "donam4_blue.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689377552e8fca191aabf888"
+      }
+    },
+    {
+      "option": "XL - Xanh dương",
+      "size": "XL",
+      "color": "Xanh dương",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "donam4_blue.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689377552e8fca191aabf889"
+      }
+    },
+    {
+      "option": "M - Xanh rêu",
+      "size": "M",
+      "color": "Xanh rêu",
+      "price": 139000,
+      "sale_price": 0,
+      "image": "donam4_green.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689377552e8fca191aabf88a"
+      }
+    },
+    {
+      "option": "L - Xanh rêu",
+      "size": "L",
+      "color": "Xanh rêu",
+      "price": 149000,
+      "sale_price": 0,
+      "image": "donam4_green.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689377552e8fca191aabf88b"
+      }
+    },
+    {
+      "option": "XL - Xanh rêu",
+      "size": "XL",
+      "color": "Xanh rêu",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "donam4_green.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689377552e8fca191aabf88c"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 39,
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-06-21T12:55:35.051Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T15:40:05.017Z"
+  },
+  "__v": 0,
+  "description": "Chất liệu: 100% Cotton\nKiểu dáng: Regular\nPhù hợp: Đi làm, đi du lịch,…",
+  "flag": true
+},
+{
+  "_id": {
+    "$oid": "67b877fec8ab0a6e2e0dd8d5"
+  },
+  "name": "Áo Tshirt Training Seamless Body Mapping",
+  "idcate": {
+    "$oid": "67b0a4fbb5a39baf9de368ff"
+  },
+  "colors": [
+    "Đen",
+    "Xám",
+    "Cam"
+  ],
+  "sizes": [
+    "M",
+    "L",
+    "XL"
+  ],
+  "images": [
+    "donam5_black.webp",
+    "donam5_gray.webp",
+    "donam5_orange.webp"
+  ],
+  "variants": [
+    {
+      "_id": {
+        "$oid": "67f3e5cc228dc7f3df6ae807"
+      },
+      "option": "M - Đen",
+      "size": "M",
+      "color": "Đen",
+      "price": 119000,
+      "sale_price": 0,
+      "image": "donam5_black.webp",
+      "quantity": 94
+    },
+    {
+      "_id": {
+        "$oid": "67f3e5cc228dc7f3df6ae808"
+      },
+      "option": "L - Đen",
+      "size": "L",
+      "color": "Đen",
+      "price": 129000,
+      "sale_price": 0,
+      "image": "donam5_black.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e5cc228dc7f3df6ae809"
+      },
+      "option": "XL - Đen",
+      "size": "XL",
+      "color": "Đen",
+      "price": 139000,
+      "sale_price": 0,
+      "image": "donam5_black.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e5cc228dc7f3df6ae80a"
+      },
+      "option": "M - Xám",
+      "size": "M",
+      "color": "Xám",
+      "price": 119000,
+      "sale_price": 0,
+      "image": "donam5_gray.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e5cc228dc7f3df6ae80b"
+      },
+      "option": "L - Xám",
+      "size": "L",
+      "color": "Xám",
+      "price": 129000,
+      "sale_price": 0,
+      "image": "donam5_gray.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e5cc228dc7f3df6ae80c"
+      },
+      "option": "XL - Xám",
+      "size": "XL",
+      "color": "Xám",
+      "price": 139000,
+      "sale_price": 0,
+      "image": "donam5_gray.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e5cc228dc7f3df6ae80d"
+      },
+      "option": "M - Cam",
+      "size": "M",
+      "color": "Cam",
+      "price": 119000,
+      "sale_price": 0,
+      "image": "donam5_orange.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e5cc228dc7f3df6ae80e"
+      },
+      "option": "L - Cam",
+      "size": "L",
+      "color": "Cam",
+      "price": 129000,
+      "sale_price": 0,
+      "image": "donam5_orange.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e5cc228dc7f3df6ae80f"
+      },
+      "option": "XL - Cam",
+      "size": "XL",
+      "color": "Cam",
+      "price": 139000,
+      "sale_price": 0,
+      "image": "donam5_orange.webp",
+      "quantity": 99
+    }
+  ],
+  "hot": 0,
+  "view": 4,
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-06-21T12:56:30.018Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-03T11:02:59.824Z"
+  },
+  "__v": 0,
+  "description": "Công nghệ: Ex-Dry\nChất liệu: 67% Nylon 33% Polyester\nKiểu dáng: Regular\nThoáng khí, thoát ẩm tốt, phù hợp cho luyện tập thể thao cường độ cao.",
+  "flag": true
+},
+{
+  "_id": {
+    "$oid": "67b87885c8ab0a6e2e0dd8df"
+  },
+  "name": "Váy thun knit Pickleball Smash Shot",
+  "idcate": {
+    "$oid": "67b0a54db5a39baf9de36902"
+  },
+  "colors": [
+    "Trắng",
+    "Xanh dương",
+    "Đen"
+  ],
+  "sizes": [
+    "M",
+    "L",
+    "XL"
+  ],
+  "images": [
+    "donu2_white.webp",
+    "donu2_blue.webp",
+    "donu2_black.webp"
+  ],
+  "variants": [
+    {
+      "_id": {
+        "$oid": "67f3e6aa228dc7f3df6ae810"
+      },
+      "option": "M - Trắng",
+      "size": "M",
+      "color": "Trắng",
+      "price": 199000,
+      "sale_price": 0,
+      "image": "donu2_white.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e6aa228dc7f3df6ae811"
+      },
+      "option": "L - Trắng",
+      "size": "L",
+      "color": "Trắng",
+      "price": 219000,
+      "sale_price": 0,
+      "image": "donu2_white.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e6aa228dc7f3df6ae812"
+      },
+      "option": "XL - Trắng",
+      "size": "XL",
+      "color": "Trắng",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "donu2_white.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e6aa228dc7f3df6ae813"
+      },
+      "option": "M - Xanh dương",
+      "size": "M",
+      "color": "Xanh dương",
+      "price": 199000,
+      "sale_price": 0,
+      "image": "donu2_blue.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e6aa228dc7f3df6ae814"
+      },
+      "option": "L - Xanh dương",
+      "size": "L",
+      "color": "Xanh dương",
+      "price": 219000,
+      "sale_price": 0,
+      "image": "donu2_blue.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e6aa228dc7f3df6ae815"
+      },
+      "option": "XL - Xanh dương",
+      "size": "XL",
+      "color": "Xanh dương",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "donu2_blue.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e6aa228dc7f3df6ae816"
+      },
+      "option": "M - Đen",
+      "size": "M",
+      "color": "Đen",
+      "price": 199000,
+      "sale_price": 0,
+      "image": "donu2_black.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e6aa228dc7f3df6ae817"
+      },
+      "option": "L - Đen",
+      "size": "L",
+      "color": "Đen",
+      "price": 219000,
+      "sale_price": 0,
+      "image": "donu2_black.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e6aa228dc7f3df6ae818"
+      },
+      "option": "XL - Đen",
+      "size": "XL",
+      "color": "Đen",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "donu2_black.webp",
+      "quantity": 99
+    }
+  ],
+  "hot": 0,
+  "view": 2,
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-06-21T12:58:45.347Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-21T11:07:51.046Z"
+  },
+  "__v": 0,
+  "description": "Chất liệu: 89% Polyester 11% Spandex\nKiểu dáng: Regular fit\nMẫu cao 1m65 mặc size M vừa vặn. Thiết kế tôn dáng, thoải mái khi vận động thể thao.",
+  "flag": true
+},
+{
+  "_id": {
+    "$oid": "67b8783fc8ab0a6e2e0dd8da"
+  },
+  "name": "Áo thun nữ chạy bộ Race Tee",
+  "idcate": {
+    "$oid": "67b0a54db5a39baf9de36902"
+  },
+  "colors": [
+    "Trắng",
+    "Tím",
+    "Xám"
+  ],
+  "sizes": [
+    "M",
+    "L",
+    "XL"
+  ],
+  "images": [
+    "donu1_white.webp",
+    "donu1_purple.webp",
+    "donu1_gray.webp"
+  ],
+  "variants": [
+    {
+      "_id": {
+        "$oid": "67f3e7aa228dc7f3df6ae820"
+      },
+      "option": "M - Trắng",
+      "size": "M",
+      "color": "Trắng",
+      "price": 139000,
+      "sale_price": 0,
+      "image": "donu1_white.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e7aa228dc7f3df6ae821"
+      },
+      "option": "L - Trắng",
+      "size": "L",
+      "color": "Trắng",
+      "price": 219000,
+      "sale_price": 0,
+      "image": "donu1_white.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e7aa228dc7f3df6ae822"
+      },
+      "option": "XL - Trắng",
+      "size": "XL",
+      "color": "Trắng",
+      "price": 329000,
+      "sale_price": 0,
+      "image": "donu1_white.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e7aa228dc7f3df6ae823"
+      },
+      "option": "M - Tím",
+      "size": "M",
+      "color": "Tím",
+      "price": 139000,
+      "sale_price": 0,
+      "image": "donu1_purple.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e7aa228dc7f3df6ae824"
+      },
+      "option": "L - Tím",
+      "size": "L",
+      "color": "Tím",
+      "price": 219000,
+      "sale_price": 0,
+      "image": "donu1_purple.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e7aa228dc7f3df6ae825"
+      },
+      "option": "XL - Tím",
+      "size": "XL",
+      "color": "Tím",
+      "price": 329000,
+      "sale_price": 0,
+      "image": "donu1_purple.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e7aa228dc7f3df6ae826"
+      },
+      "option": "M - Xám",
+      "size": "M",
+      "color": "Xám",
+      "price": 139000,
+      "sale_price": 0,
+      "image": "donu1_gray.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e7aa228dc7f3df6ae827"
+      },
+      "option": "L - Xám",
+      "size": "L",
+      "color": "Xám",
+      "price": 219000,
+      "sale_price": 0,
+      "image": "donu1_gray.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e7aa228dc7f3df6ae828"
+      },
+      "option": "XL - Xám",
+      "size": "XL",
+      "color": "Xám",
+      "price": 329000,
+      "sale_price": 0,
+      "image": "donu1_gray.webp",
+      "quantity": 99
+    }
+  ],
+  "hot": 0,
+  "view": 3,
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-06-21T12:57:35.613Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-14T04:24:36.225Z"
+  },
+  "__v": 0,
+  "description": "Công nghệ: Ex-Dry\nChất liệu: 100% Polyester\nKiểu dáng: Regular Fit\nChạy bộ, thể thao, nhẹ, thoáng khí, nhanh khô. Mẫu chuẩn form nữ năng động.",
+  "flag": true
+},
+{
+  "_id": {
+    "$oid": "67b878afc8ab0a6e2e0dd8e4"
+  },
+  "name": "Áo Crop top nữ Pickleball Dink Shot",
+  "idcate": {
+    "$oid": "67b0a54db5a39baf9de36902"
+  },
+  "colors": [
+    "Trắng",
+    "Hồng",
+    "Đen"
+  ],
+  "sizes": [
+    "M",
+    "L",
+    "XL"
+  ],
+  "images": [
+    "donu3_white.webp",
+    "donu3_pink.webp",
+    "donu3_black.webp"
+  ],
+  "variants": [
+    {
+      "_id": {
+        "$oid": "67f3e8aa228dc7f3df6ae840"
+      },
+      "option": "M - Trắng",
+      "size": "M",
+      "color": "Trắng",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "donu3_white.webp",
+      "quantity": 93
+    },
+    {
+      "_id": {
+        "$oid": "67f3e8aa228dc7f3df6ae841"
+      },
+      "option": "L - Trắng",
+      "size": "L",
+      "color": "Trắng",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "donu3_white.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e8aa228dc7f3df6ae842"
+      },
+      "option": "XL - Trắng",
+      "size": "XL",
+      "color": "Trắng",
+      "price": 349000,
+      "sale_price": 0,
+      "image": "donu3_white.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e8aa228dc7f3df6ae843"
+      },
+      "option": "M - Hồng",
+      "size": "M",
+      "color": "Hồng",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "donu3_pink.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e8aa228dc7f3df6ae844"
+      },
+      "option": "L - Hồng",
+      "size": "L",
+      "color": "Hồng",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "donu3_pink.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e8aa228dc7f3df6ae845"
+      },
+      "option": "XL - Hồng",
+      "size": "XL",
+      "color": "Hồng",
+      "price": 349000,
+      "sale_price": 0,
+      "image": "donu3_pink.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e8aa228dc7f3df6ae846"
+      },
+      "option": "M - Đen",
+      "size": "M",
+      "color": "Đen",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "donu3_black.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e8aa228dc7f3df6ae847"
+      },
+      "option": "L - Đen",
+      "size": "L",
+      "color": "Đen",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "donu3_black.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f3e8aa228dc7f3df6ae848"
+      },
+      "option": "XL - Đen",
+      "size": "XL",
+      "color": "Đen",
+      "price": 349000,
+      "sale_price": 0,
+      "image": "donu3_black.webp",
+      "quantity": 99
+    }
+  ],
+  "hot": 0,
+  "view": 2,
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-06-21T12:59:27.241Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-28T13:29:36.278Z"
+  },
+  "__v": 0,
+  "description": "Công nghệ: Ex-Dry\nChất liệu: 86% Recycled Polyester 14% Spandex\nKiểu dáng: Croptop, trẻ trung, ôm body tôn dáng. Thoải mái khi chơi thể thao hoặc phối đồ thường ngày.",
+  "flag": true
+},
+{
+  "_id": {
+    "$oid": "67b878d7c8ab0a6e2e0dd8e9"
+  },
+  "name": "Áo Bra chạy bộ Medium Support",
+  "slug": "ao-bra-chay-bo-medium-support",
+  "idcate": {
+    "$oid": "67b0a54db5a39baf9de36902"
+  },
+  "colors": [
+    "Tím",
+    "Xám",
+    "Đen"
+  ],
+  "sizes": [
+    "M",
+    "L",
+    "XL"
+  ],
+  "images": [
+    "donu4_purple.webp",
+    "donu4_gray.webp",
+    "donu4_black.webp"
+  ],
+  "variants": [
+    {
+      "option": "M - Tím",
+      "size": "M",
+      "color": "Tím",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "donu4_purple.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dfc42e8fca191aac310a"
+      }
+    },
+    {
+      "option": "L - Tím",
+      "size": "L",
+      "color": "Tím",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "donu4_purple.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dfc42e8fca191aac310b"
+      }
+    },
+    {
+      "option": "XL - Tím",
+      "size": "XL",
+      "color": "Tím",
+      "price": 349000,
+      "sale_price": 0,
+      "image": "donu4_purple.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dfc42e8fca191aac310c"
+      }
+    },
+    {
+      "option": "M - Xám",
+      "size": "M",
+      "color": "Xám",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "donu4_gray.webp",
+      "quantity": 98,
+      "_id": {
+        "$oid": "6893dfc42e8fca191aac310d"
+      }
+    },
+    {
+      "option": "L - Xám",
+      "size": "L",
+      "color": "Xám",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "donu4_gray.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dfc42e8fca191aac310e"
+      }
+    },
+    {
+      "option": "XL - Xám",
+      "size": "XL",
+      "color": "Xám",
+      "price": 349000,
+      "sale_price": 0,
+      "image": "donu4_gray.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dfc42e8fca191aac310f"
+      }
+    },
+    {
+      "option": "M - Đen",
+      "size": "M",
+      "color": "Đen",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "donu4_black.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dfc42e8fca191aac3110"
+      }
+    },
+    {
+      "option": "L - Đen",
+      "size": "L",
+      "color": "Đen",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "donu4_black.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dfc42e8fca191aac3111"
+      }
+    },
+    {
+      "option": "XL - Đen",
+      "size": "XL",
+      "color": "Đen",
+      "price": 349000,
+      "sale_price": 0,
+      "image": "donu4_black.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dfc42e8fca191aac3112"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 3,
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-06-21T13:00:07.633Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T23:05:40.620Z"
+  },
+  "__v": 0,
+  "description": "Công nghệ: Ex-Dry\nChất liệu:\n- Vải chính: 89% Polyester, 11% Spandex\n- Vải lót: Thoáng khí, hỗ trợ vận động. Kiểu dáng nâng đỡ tốt, phù hợp chạy bộ và tập luyện cường độ trung bình.",
+  "flag": false
+},
+{
+  "_id": {
+    "$oid": "67b8790cc8ab0a6e2e0dd8ee"
+  },
+  "name": "Quần Shorts thể thao nữ Ribbed",
+  "idcate": {
+    "$oid": "67b0a54db5a39baf9de36902"
+  },
+  "colors": [
+    "Xanh lá",
+    "Tím",
+    "Đen"
+  ],
+  "sizes": [
+    "M",
+    "L",
+    "XL"
+  ],
+  "images": [
+    "donu5_green.webp",
+    "donu5_purple.webp",
+    "donu5_black.webp"
+  ],
+  "variants": [
+    {
+      "option": "M - Xanh lá",
+      "size": "M",
+      "color": "Xanh lá",
+      "price": 149000,
+      "sale_price": 0,
+      "image": "donu5_green.webp",
+      "quantity": 98,
+      "_id": {
+        "$oid": "6893dfb32e8fca191aac2fe1"
+      }
+    },
+    {
+      "option": "L - Xanh lá",
+      "size": "L",
+      "color": "Xanh lá",
+      "price": 229000,
+      "sale_price": 0,
+      "image": "donu5_green.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dfb32e8fca191aac2fe2"
+      }
+    },
+    {
+      "option": "XL - Xanh lá",
+      "size": "XL",
+      "color": "Xanh lá",
+      "price": 339000,
+      "sale_price": 0,
+      "image": "donu5_green.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dfb32e8fca191aac2fe3"
+      }
+    },
+    {
+      "option": "M - Tím",
+      "size": "M",
+      "color": "Tím",
+      "price": 149000,
+      "sale_price": 0,
+      "image": "donu5_purple.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dfb32e8fca191aac2fe4"
+      }
+    },
+    {
+      "option": "L - Tím",
+      "size": "L",
+      "color": "Tím",
+      "price": 229000,
+      "sale_price": 0,
+      "image": "donu5_purple.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dfb32e8fca191aac2fe5"
+      }
+    },
+    {
+      "option": "XL - Tím",
+      "size": "XL",
+      "color": "Tím",
+      "price": 339000,
+      "sale_price": 0,
+      "image": "donu5_purple.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dfb32e8fca191aac2fe6"
+      }
+    },
+    {
+      "option": "M - Đen",
+      "size": "M",
+      "color": "Đen",
+      "price": 149000,
+      "sale_price": 0,
+      "image": "donu5_black.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dfb32e8fca191aac2fe7"
+      }
+    },
+    {
+      "option": "L - Đen",
+      "size": "L",
+      "color": "Đen",
+      "price": 229000,
+      "sale_price": 0,
+      "image": "donu5_black.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dfb32e8fca191aac2fe8"
+      }
+    },
+    {
+      "option": "XL - Đen",
+      "size": "XL",
+      "color": "Đen",
+      "price": 339000,
+      "sale_price": 0,
+      "image": "donu5_black.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dfb32e8fca191aac2fe9"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 1,
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-06-21T13:01:01.004Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T23:05:23.437Z"
+  },
+  "__v": 0,
+  "description": "Chất liệu: 79% Nylon, 21% Spandex\nKiểu dáng: Regular fit\nMẫu cao 1m69, mặc size M vừa vặn. Chất vải co giãn tốt, thoáng khí, thích hợp cho vận động thể thao và mặc hàng ngày.",
+  "flag": false
+},
+{
+  "_id": {
+    "$oid": "67b87a09c8ab0a6e2e0dd8f8"
+  },
+  "name": "Cốc giữ nhiệt Inox",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Trắng",
+    "Đen",
+    "Xanh navy"
+  ],
+  "sizes": [
+    "350ml",
+    "500ml",
+    "700ml"
+  ],
+  "images": [
+    "phukien3_white.webp",
+    "phukien3_black.webp",
+    "phukien3_navy.webp"
+  ],
+  "variants": [
+    {
+      "_id": {
+        "$oid": "67f99c90228dc7f3df6af101"
+      },
+      "option": "350ml - Trắng",
+      "size": "350ml",
+      "color": "Trắng",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "phukien3_white.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f99c90228dc7f3df6af102"
+      },
+      "option": "500ml - Trắng",
+      "size": "500ml",
+      "color": "Trắng",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "phukien3_white.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f99c90228dc7f3df6af103"
+      },
+      "option": "700ml - Trắng",
+      "size": "700ml",
+      "color": "Trắng",
+      "price": 349000,
+      "sale_price": 0,
+      "image": "phukien3_white.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f99c90228dc7f3df6af104"
+      },
+      "option": "350ml - Đen",
+      "size": "350ml",
+      "color": "Đen",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "phukien3_black.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f99c90228dc7f3df6af105"
+      },
+      "option": "500ml - Đen",
+      "size": "500ml",
+      "color": "Đen",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "phukien3_black.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f99c90228dc7f3df6af106"
+      },
+      "option": "700ml - Đen",
+      "size": "700ml",
+      "color": "Đen",
+      "price": 349000,
+      "sale_price": 0,
+      "image": "phukien3_black.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f99c90228dc7f3df6af107"
+      },
+      "option": "350ml - Xanh navy",
+      "size": "350ml",
+      "color": "Xanh navy",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "phukien3_navy.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f99c90228dc7f3df6af108"
+      },
+      "option": "500ml - Xanh navy",
+      "size": "500ml",
+      "color": "Xanh navy",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "phukien3_navy.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f99c90228dc7f3df6af109"
+      },
+      "option": "700ml - Xanh navy",
+      "size": "700ml",
+      "color": "Xanh navy",
+      "price": 349000,
+      "sale_price": 0,
+      "image": "phukien3_navy.webp",
+      "quantity": 99
+    }
+  ],
+  "hot": 0,
+  "view": 3,
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-06-21T13:05:13.406Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-25T06:04:00.222Z"
+  },
+  "__v": 0,
+  "description": "Thân cốc làm từ inox304 có lớp vỏ inox sơn tĩnh điện giúp giữ nhiệt 5-8 giờ, thiết kế tinh tế và tiện dụng.",
+  "flag": true
+},
+{
+  "_id": {
+    "$oid": "67b87a46c8ab0a6e2e0dd8fd"
+  },
+  "name": "Tất cổ trung chạy bộ nữ",
+  "idcate": {
+    "$oid": "67b0a54db5a39baf9de36902"
+  },
+  "colors": [
+    "Trắng",
+    "Xám",
+    "Hồng"
+  ],
+  "sizes": [
+    "Nhỏ",
+    "Vừa",
+    "Lớn"
+  ],
+  "images": [
+    "phukiennu4_white.webp",
+    "phukiennu4_gray.webp",
+    "phukiennu4_pink.webp"
+  ],
+  "variants": [
+    {
+      "option": "Nhỏ - Trắng",
+      "size": "Nhỏ",
+      "color": "Trắng",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "phukiennu4_white.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a4d2e8fca191aac47fa"
+      }
+    },
+    {
+      "option": "Nhỏ - Xám",
+      "size": "Nhỏ",
+      "color": "Xám",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "phukiennu4_gray.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a4d2e8fca191aac47fb"
+      }
+    },
+    {
+      "option": "Nhỏ - Hồng",
+      "size": "Nhỏ",
+      "color": "Hồng",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "phukiennu4_pink.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a4d2e8fca191aac47fc"
+      }
+    },
+    {
+      "option": "Vừa - Trắng",
+      "size": "Vừa",
+      "color": "Trắng",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "phukiennu4_white.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a4d2e8fca191aac47fd"
+      }
+    },
+    {
+      "option": "Vừa - Xám",
+      "size": "Vừa",
+      "color": "Xám",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "phukiennu4_gray.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a4d2e8fca191aac47fe"
+      }
+    },
+    {
+      "option": "Vừa - Hồng",
+      "size": "Vừa",
+      "color": "Hồng",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "phukiennu4_pink.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a4d2e8fca191aac47ff"
+      }
+    },
+    {
+      "option": "Lớn - Trắng",
+      "size": "Lớn",
+      "color": "Trắng",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "phukiennu4_white.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a4d2e8fca191aac4800"
+      }
+    },
+    {
+      "option": "Lớn - Xám",
+      "size": "Lớn",
+      "color": "Xám",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "phukiennu4_gray.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a4d2e8fca191aac4801"
+      }
+    },
+    {
+      "option": "Lớn - Hồng",
+      "size": "Lớn",
+      "color": "Hồng",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "phukiennu4_pink.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a4d2e8fca191aac4802"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-06-21T13:06:14.107Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T11:13:17.438Z"
+  },
+  "__v": 0,
+  "description": "Chất liệu: 80% Nylon Aquax, 15% Nylon, 5% Spandex\nKiểu dáng: Cổ trung\nThoáng khí, co giãn tốt, phù hợp cho chạy bộ, tập gym hoặc đi bộ hằng ngày.",
+  "flag": true
+},
+{
+  "_id": {
+    "$oid": "67b87b61c8ab0a6e2e0dd907"
+  },
+  "name": "Pack 4 Dây Buộc tóc Scrunchies",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Đen",
+    "Nâu",
+    "Hồng"
+  ],
+  "sizes": [
+    "Nhỏ",
+    "Vừa",
+    "Lớn"
+  ],
+  "images": [
+    "phukiennu5_black.webp",
+    "phukiennu5_brown.webp",
+    "phukiennu5_pink.webp"
+  ],
+  "variants": [
+    {
+      "_id": {
+        "$oid": "67f9bd001a2dc7f3df6af201"
+      },
+      "option": "Nhỏ - Đen",
+      "size": "Nhỏ",
+      "color": "Đen",
+      "price": 169000,
+      "sale_price": 0,
+      "image": "phukiennu5_black.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f9bd001a2dc7f3df6af202"
+      },
+      "option": "Vừa - Đen",
+      "size": "Vừa",
+      "color": "Đen",
+      "price": 249000,
+      "sale_price": 0,
+      "image": "phukiennu5_black.webp",
+      "quantity": 98
+    },
+    {
+      "_id": {
+        "$oid": "67f9bd001a2dc7f3df6af203"
+      },
+      "option": "Lớn - Đen",
+      "size": "Lớn",
+      "color": "Đen",
+      "price": 359000,
+      "sale_price": 0,
+      "image": "phukiennu5_black.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f9bd001a2dc7f3df6af204"
+      },
+      "option": "Nhỏ - Nâu",
+      "size": "Nhỏ",
+      "color": "Nâu",
+      "price": 169000,
+      "sale_price": 0,
+      "image": "phukiennu5_brown.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f9bd001a2dc7f3df6af205"
+      },
+      "option": "Vừa - Nâu",
+      "size": "Vừa",
+      "color": "Nâu",
+      "price": 249000,
+      "sale_price": 0,
+      "image": "phukiennu5_brown.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f9bd001a2dc7f3df6af206"
+      },
+      "option": "Lớn - Nâu",
+      "size": "Lớn",
+      "color": "Nâu",
+      "price": 359000,
+      "sale_price": 0,
+      "image": "phukiennu5_brown.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f9bd001a2dc7f3df6af207"
+      },
+      "option": "Nhỏ - Hồng",
+      "size": "Nhỏ",
+      "color": "Hồng",
+      "price": 169000,
+      "sale_price": 0,
+      "image": "phukiennu5_pink.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f9bd001a2dc7f3df6af208"
+      },
+      "option": "Vừa - Hồng",
+      "size": "Vừa",
+      "color": "Hồng",
+      "price": 249000,
+      "sale_price": 0,
+      "image": "phukiennu5_pink.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67f9bd001a2dc7f3df6af209"
+      },
+      "option": "Lớn - Hồng",
+      "size": "Lớn",
+      "color": "Hồng",
+      "price": 359000,
+      "sale_price": 0,
+      "image": "phukiennu5_pink.webp",
+      "quantity": 99
+    }
+  ],
+  "hot": 0,
+  "view": 2,
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-06-21T13:10:57.451Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-05T12:52:01.893Z"
+  },
+  "__v": 0,
+  "description": "Chất liệu: 88% Nylon 12% Spandex\nKiểu dáng: Scrunchies - dây buộc tóc\nCo giãn tốt, giữ tóc chắc chắn mà không làm gãy tóc. Thiết kế dễ thương phù hợp mọi lứa tuổi.",
+  "flag": true
+},
+{
+  "_id": {
+    "$oid": "67b87653c8ab0a6e2e0dd8c5"
+  },
+  "name": "Áo Thun Nam Thể Thao Basics",
+  "idcate": {
+    "$oid": "67b0a4fbb5a39baf9de368ff"
+  },
+  "colors": [
+    "Đen",
+    "Trắng",
+    "Xám"
+  ],
+  "sizes": [
+    "M",
+    "L",
+    "XL"
+  ],
+  "images": [
+    "basics_black.webp",
+    "basics_white.webp",
+    "basics_gray.webp"
+  ],
+  "variants": [
+    {
+      "_id": {
+        "$oid": "67ef8a01a5fb27c9641a8fd7"
+      },
+      "option": "M - Đen",
+      "size": "M",
+      "color": "Đen",
+      "price": 179000,
+      "sale_price": 0,
+      "image": "basics_black.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67ef8a01a5fb27c9641a8fd6"
+      },
+      "option": "L - Đen",
+      "size": "L",
+      "color": "Đen",
+      "price": 189000,
+      "sale_price": 0,
+      "image": "basics_black.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67ef8a01a5fb27c9641a8fd8"
+      },
+      "option": "XL - Đen",
+      "size": "XL",
+      "color": "Đen",
+      "price": 209000,
+      "sale_price": 0,
+      "image": "basics_black.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67faaa01a5fb27c9641a9001"
+      },
+      "option": "M - Trắng",
+      "size": "M",
+      "color": "Trắng",
+      "price": 179000,
+      "sale_price": 0,
+      "image": "basics_white.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67faaa01a5fb27c9641a9002"
+      },
+      "option": "L - Trắng",
+      "size": "L",
+      "color": "Trắng",
+      "price": 189000,
+      "sale_price": 0,
+      "image": "basics_white.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67faaa01a5fb27c9641a9003"
+      },
+      "option": "XL - Trắng",
+      "size": "XL",
+      "color": "Trắng",
+      "price": 209000,
+      "sale_price": 0,
+      "image": "basics_white.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67faaa01a5fb27c9641a9004"
+      },
+      "option": "M - Xám",
+      "size": "M",
+      "color": "Xám",
+      "price": 179000,
+      "sale_price": 0,
+      "image": "basics_gray.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67faaa01a5fb27c9641a9005"
+      },
+      "option": "L - Xám",
+      "size": "L",
+      "color": "Xám",
+      "price": 189000,
+      "sale_price": 0,
+      "image": "basics_gray.webp",
+      "quantity": 99
+    },
+    {
+      "_id": {
+        "$oid": "67faaa01a5fb27c9641a9006"
+      },
+      "option": "XL - Xám",
+      "size": "XL",
+      "color": "Xám",
+      "price": 209000,
+      "sale_price": 0,
+      "image": "basics_gray.webp",
+      "quantity": 99
+    }
+  ],
+  "hot": 0,
+  "view": 12,
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-06-21T12:49:24.111Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-25T11:45:00.000Z"
+  },
+  "__v": 0,
+  "description": "Chất liệu: 51% sợi Poly Recycle 49% Poly\nKiểu dáng: Regular fit\nPhù hợp cho các hoạt động thể thao và thường ngày.",
+  "flag": true
+},
+{
+  "_id": {
+    "$oid": "67b87687c8ab0a6e2e0dd8c8"
+  },
+  "name": "Áo ba lỗ nam 100% Cotton",
+  "idcate": {
+    "$oid": "67b0a4fbb5a39baf9de368ff"
+  },
+  "colors": [
+    "Trắng",
+    "Đen",
+    "Xám"
+  ],
+  "sizes": [
+    "M",
+    "L",
+    "XL"
+  ],
+  "images": [
+    "donam_white.webp",
+    "donam_black.webp",
+    "donam_gray.webp"
+  ],
+  "variants": [
+    {
+      "option": "M - Trắng",
+      "size": "M",
+      "color": "Trắng",
+      "price": 169000,
+      "sale_price": 0,
+      "image": "donam_white.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df822e8fca191aac2cb1"
+      }
+    },
+    {
+      "option": "L - Trắng",
+      "size": "L",
+      "color": "Trắng",
+      "price": 189000,
+      "sale_price": 0,
+      "image": "donam_white.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df822e8fca191aac2cb2"
+      }
+    },
+    {
+      "option": "XL - Trắng",
+      "size": "XL",
+      "color": "Trắng",
+      "price": 209000,
+      "sale_price": 0,
+      "image": "donam_white.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df822e8fca191aac2cb3"
+      }
+    },
+    {
+      "option": "M - Đen",
+      "size": "M",
+      "color": "Đen",
+      "price": 169000,
+      "sale_price": 0,
+      "image": "donam_black.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df822e8fca191aac2cb4"
+      }
+    },
+    {
+      "option": "L - Đen",
+      "size": "L",
+      "color": "Đen",
+      "price": 189000,
+      "sale_price": 0,
+      "image": "donam_black.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df822e8fca191aac2cb5"
+      }
+    },
+    {
+      "option": "XL - Đen",
+      "size": "XL",
+      "color": "Đen",
+      "price": 209000,
+      "sale_price": 0,
+      "image": "donam_black.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df822e8fca191aac2cb6"
+      }
+    },
+    {
+      "option": "M - Xám",
+      "size": "M",
+      "color": "Xám",
+      "price": 169000,
+      "sale_price": 0,
+      "image": "donam_gray.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df822e8fca191aac2cb7"
+      }
+    },
+    {
+      "option": "L - Xám",
+      "size": "L",
+      "color": "Xám",
+      "price": 189000,
+      "sale_price": 0,
+      "image": "donam_gray.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df822e8fca191aac2cb8"
+      }
+    },
+    {
+      "option": "XL - Xám",
+      "size": "XL",
+      "color": "Xám",
+      "price": 209000,
+      "sale_price": 0,
+      "image": "donam_gray.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df822e8fca191aac2cb9"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 2,
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-06-21T12:50:15.679Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T23:04:34.995Z"
+  },
+  "__v": 0,
+  "description": "Chất liệu: 100% Cotton\nKiểu dáng: Tank\nPhù hợp: Mặc trong hoặc mặc nhà, thoải mái và thấm hút mồ hôi tốt.",
+  "flag": false
+},
+{
+  "_id": {
+    "$oid": "67b87975c8ab0a6e2e0dd8f3"
+  },
+  "name": "Combo 5 Đôi Tất Nam cổ trung Basics Co giãn",
+  "idcate": {
+    "$oid": "67b0a4fbb5a39baf9de368ff"
+  },
+  "colors": [
+    "Trắng",
+    "Xám",
+    "Đen"
+  ],
+  "sizes": [
+    "Nhỏ",
+    "Vừa",
+    "Lớn"
+  ],
+  "images": [
+    "phukiennam1_white.webp",
+    "phukiennam1_gray.webp",
+    "phukiennam1_black.webp"
+  ],
+  "variants": [
+    {
+      "option": "Nhỏ - Trắng",
+      "size": "Nhỏ",
+      "color": "Trắng",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "phukiennam1_white.webp",
+      "quantity": 98,
+      "_id": {
+        "$oid": "68948a372e8fca191aac467a"
+      }
+    },
+    {
+      "option": "Nhỏ - Xám",
+      "size": "Nhỏ",
+      "color": "Xám",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "phukiennam1_gray.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a372e8fca191aac467b"
+      }
+    },
+    {
+      "option": "Nhỏ - Đen",
+      "size": "Nhỏ",
+      "color": "Đen",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "phukiennam1_black.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a372e8fca191aac467c"
+      }
+    },
+    {
+      "option": "Vừa - Trắng",
+      "size": "Vừa",
+      "color": "Trắng",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "phukiennam1_white.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a372e8fca191aac467d"
+      }
+    },
+    {
+      "option": "Vừa - Xám",
+      "size": "Vừa",
+      "color": "Xám",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "phukiennam1_gray.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a372e8fca191aac467e"
+      }
+    },
+    {
+      "option": "Vừa - Đen",
+      "size": "Vừa",
+      "color": "Đen",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "phukiennam1_black.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a372e8fca191aac467f"
+      }
+    },
+    {
+      "option": "Lớn - Trắng",
+      "size": "Lớn",
+      "color": "Trắng",
+      "price": 349000,
+      "sale_price": 0,
+      "image": "phukiennam1_white.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a372e8fca191aac4680"
+      }
+    },
+    {
+      "option": "Lớn - Xám",
+      "size": "Lớn",
+      "color": "Xám",
+      "price": 349000,
+      "sale_price": 0,
+      "image": "phukiennam1_gray.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a372e8fca191aac4681"
+      }
+    },
+    {
+      "option": "Lớn - Đen",
+      "size": "Lớn",
+      "color": "Đen",
+      "price": 349000,
+      "sale_price": 0,
+      "image": "phukiennam1_black.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a372e8fca191aac4682"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 4,
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-06-21T13:02:45.154Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T11:12:55.985Z"
+  },
+  "__v": 0,
+  "description": "Chất liệu: 60% Polyester, 33% Cotton, 4% Elastane, 2% Nylon, 1% Elastodiene. Thiết kế cổ trung co giãn, thoáng khí, thích hợp mang hàng ngày và vận động thể thao.",
+  "flag": true
+},
+{
+  "_id": {
+    "$oid": "67b879824780ae3e5b0b4a81"
+  },
+  "name": "Găng tay đa năng chống tia UV",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Trắng",
+    "Xám",
+    "Đen"
+  ],
+  "sizes": [
+    "Nhỏ",
+    "Vừa",
+    "Lớn"
+  ],
+  "images": [
+    "phukiennam2_white.webp",
+    "phukiennam2_gray.webp",
+    "phukiennam2_black.webp"
+  ],
+  "variants": [
+    {
+      "option": "Nhỏ - Trắng",
+      "size": "Nhỏ",
+      "color": "Trắng",
+      "price": 99000,
+      "sale_price": 0,
+      "image": "phukiennam2_white.webp",
+      "quantity": 98,
+      "_id": {
+        "$oid": "6893df8c2e8fca191aac2d74"
+      }
+    },
+    {
+      "option": "Vừa - Trắng",
+      "size": "Vừa",
+      "color": "Trắng",
+      "price": 249000,
+      "sale_price": 0,
+      "image": "phukiennam2_white.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df8c2e8fca191aac2d75"
+      }
+    },
+    {
+      "option": "Lớn - Trắng",
+      "size": "Lớn",
+      "color": "Trắng",
+      "price": 429000,
+      "sale_price": 0,
+      "image": "phukiennam2_white.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df8c2e8fca191aac2d76"
+      }
+    },
+    {
+      "option": "Nhỏ - Xám",
+      "size": "Nhỏ",
+      "color": "Xám",
+      "price": 99000,
+      "sale_price": 0,
+      "image": "phukiennam2_gray.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df8c2e8fca191aac2d77"
+      }
+    },
+    {
+      "option": "Vừa - Xám",
+      "size": "Vừa",
+      "color": "Xám",
+      "price": 249000,
+      "sale_price": 0,
+      "image": "phukiennam2_gray.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df8c2e8fca191aac2d78"
+      }
+    },
+    {
+      "option": "Lớn - Xám",
+      "size": "Lớn",
+      "color": "Xám",
+      "price": 429000,
+      "sale_price": 0,
+      "image": "phukiennam2_gray.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df8c2e8fca191aac2d79"
+      }
+    },
+    {
+      "option": "Nhỏ - Đen",
+      "size": "Nhỏ",
+      "color": "Đen",
+      "price": 99000,
+      "sale_price": 0,
+      "image": "phukiennam2_black.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df8c2e8fca191aac2d7a"
+      }
+    },
+    {
+      "option": "Vừa - Đen",
+      "size": "Vừa",
+      "color": "Đen",
+      "price": 249000,
+      "sale_price": 0,
+      "image": "phukiennam2_black.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df8c2e8fca191aac2d7b"
+      }
+    },
+    {
+      "option": "Lớn - Đen",
+      "size": "Lớn",
+      "color": "Đen",
+      "price": 429000,
+      "sale_price": 0,
+      "image": "phukiennam2_black.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df8c2e8fca191aac2d7c"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 17,
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-06-21T13:02:58.888Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T23:04:44.891Z"
+  },
+  "__v": 0,
+  "description": "Chất liệu: 95% Nylon 5% Spandex\nKiểu dáng: Găng tay dài\nDài: 38cm\nRộng: 8.5cm\nChống tia UV hiệu quả, phù hợp cho cả nam và nữ khi hoạt động ngoài trời.",
+  "flag": false
+},
+{
+  "_id": {
+    "$oid": "68936237d3d50fa85f320f4a"
+  },
+  "name": "Áo thun chạy bộ nam thoáng khí - 100 Dry",
+  "idcate": {
+    "$oid": "67b0a4fbb5a39baf9de368ff"
+  },
+  "colors": [
+    "Đen",
+    "Trắng",
+    "Xanh"
+  ],
+  "sizes": [
+    "M",
+    "L",
+    "XL"
+  ],
+  "images": [
+    "decathclon1.webp",
+    "decathclon1.1.webp",
+    "decathclon1.2.webp"
+  ],
+  "variants": [
+    {
+      "option": "M - Đen",
+      "size": "M",
+      "color": "Đen",
+      "price": 120000,
+      "sale_price": 0,
+      "image": "decathclon1.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68936268d3d50fa85f321097"
+      }
+    },
+    {
+      "option": "M - Trắng",
+      "size": "M",
+      "color": "Trắng",
+      "price": 120000,
+      "sale_price": 0,
+      "image": "decathclon1.1.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68936268d3d50fa85f321098"
+      }
+    },
+    {
+      "option": "M - Xanh",
+      "size": "M",
+      "color": "Xanh",
+      "price": 125000,
+      "sale_price": 0,
+      "image": "decathclon1.2.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68936268d3d50fa85f321099"
+      }
+    },
+    {
+      "option": "L - Đen",
+      "size": "L",
+      "color": "Đen",
+      "price": 140000,
+      "sale_price": 0,
+      "image": "decathclon1.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68936268d3d50fa85f32109a"
+      }
+    },
+    {
+      "option": "L - Trắng",
+      "size": "L",
+      "color": "Trắng",
+      "price": 140000,
+      "sale_price": 0,
+      "image": "decathclon1.1.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68936268d3d50fa85f32109b"
+      }
+    },
+    {
+      "option": "L - Xanh",
+      "size": "L",
+      "color": "Xanh",
+      "price": 149999,
+      "sale_price": 0,
+      "image": "decathclon1.2.webp",
+      "quantity": 101,
+      "_id": {
+        "$oid": "68936268d3d50fa85f32109c"
+      }
+    },
+    {
+      "option": "XL - Đen",
+      "size": "XL",
+      "color": "Đen",
+      "price": 160000,
+      "sale_price": 0,
+      "image": "basics_black.webp",
+      "quantity": 100,
+      "_id": {
+        "$oid": "68936268d3d50fa85f32109d"
+      }
+    },
+    {
+      "option": "XL - Trắng",
+      "size": "XL",
+      "color": "Trắng",
+      "price": 160000,
+      "sale_price": 0,
+      "image": "decathclon1.1.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68936268d3d50fa85f32109e"
+      }
+    },
+    {
+      "option": "XL - Xanh",
+      "size": "XL",
+      "color": "Xanh",
+      "price": 170000,
+      "sale_price": 0,
+      "image": "decathclon1.2.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68936268d3d50fa85f32109f"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Chất liệu của áo thun chạy bộ nam được làm từ polyester khô nhanh hơn áo thun cotton",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T14:09:59.703Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T14:10:48.412Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689364980b599d5fe6c968a6"
+  },
+  "name": "Áo thun chạy bộ nam dài tay chống tia UV - Dry 500 UV",
+  "idcate": {
+    "$oid": "67b0a4fbb5a39baf9de368ff"
+  },
+  "colors": [
+    "Đen",
+    "Xanh",
+    "Trắng"
+  ],
+  "sizes": [
+    "M",
+    "XL"
+  ],
+  "images": [
+    "decathclon2.webp",
+    "decathclon2.1.webp",
+    "decathclon2.2.webp"
+  ],
+  "variants": [
+    {
+      "option": "M - Đen",
+      "size": "M",
+      "color": "Đen",
+      "price": 135000,
+      "sale_price": 0,
+      "image": "decathclon2.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689364980b599d5fe6c968a7"
+      }
+    },
+    {
+      "option": "M - Xanh",
+      "size": "M",
+      "color": "Xanh",
+      "price": 135000,
+      "sale_price": 0,
+      "image": "decathclon2.1.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689364980b599d5fe6c968a8"
+      }
+    },
+    {
+      "option": "M - Trắng",
+      "size": "M",
+      "color": "Trắng",
+      "price": 135000,
+      "sale_price": 0,
+      "image": "decathclon2.2.webp",
+      "quantity": 98,
+      "_id": {
+        "$oid": "689364980b599d5fe6c968a9"
+      }
+    },
+    {
+      "option": "XL - Đen",
+      "size": "XL",
+      "color": "Đen",
+      "price": 155000,
+      "sale_price": 0,
+      "image": "decathclon2.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689364980b599d5fe6c968aa"
+      }
+    },
+    {
+      "option": "XL - Xanh",
+      "size": "XL",
+      "color": "Xanh",
+      "price": 155000,
+      "sale_price": 0,
+      "image": "decathclon2.1.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689364980b599d5fe6c968ab"
+      }
+    },
+    {
+      "option": "XL - Trắng",
+      "size": "XL",
+      "color": "Trắng",
+      "price": 155000,
+      "sale_price": 0,
+      "image": "decathclon2.2.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689364980b599d5fe6c968ac"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Áo thun dài tay có chỉ số chống tia UV UPF trên 50 và khả năng thấm hút mồ hôi hiệu quả",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T14:20:08.431Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T14:20:08.431Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893677bdd644b603834086f"
+  },
+  "name": "Áo chạy bộ nam thoáng khí - Kiprun Run 500 Dry",
+  "idcate": {
+    "$oid": "67b0a4fbb5a39baf9de368ff"
+  },
+  "colors": [
+    "Đen",
+    "Xám",
+    "Vàng"
+  ],
+  "sizes": [
+    "M",
+    "XL"
+  ],
+  "images": [
+    "decathclon3.webp",
+    "decathclon3.1.webp",
+    "decathclon3.2.webp"
+  ],
+  "variants": [
+    {
+      "option": "M - Đen",
+      "size": "M",
+      "color": "Đen",
+      "price": 150000,
+      "sale_price": 0,
+      "image": "decathclon3.webp",
+      "quantity": 97,
+      "_id": {
+        "$oid": "6893677bdd644b6038340870"
+      }
+    },
+    {
+      "option": "M - Xám",
+      "size": "M",
+      "color": "Xám",
+      "price": 150000,
+      "sale_price": 0,
+      "image": "decathclon3.1.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893677bdd644b6038340871"
+      }
+    },
+    {
+      "option": "M - Vàng",
+      "size": "M",
+      "color": "Vàng",
+      "price": 150000,
+      "sale_price": 0,
+      "image": "decathclon3.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893677bdd644b6038340872"
+      }
+    },
+    {
+      "option": "XL - Đen",
+      "size": "XL",
+      "color": "Đen",
+      "price": 160000,
+      "sale_price": 0,
+      "image": "decathclon3.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893677bdd644b6038340873"
+      }
+    },
+    {
+      "option": "XL - Xám",
+      "size": "XL",
+      "color": "Xám",
+      "price": 160000,
+      "sale_price": 0,
+      "image": "decathclon3.1.webp",
+      "quantity": 101,
+      "_id": {
+        "$oid": "6893677bdd644b6038340874"
+      }
+    },
+    {
+      "option": "XL - Vàng",
+      "size": "XL",
+      "color": "Vàng",
+      "price": 160000,
+      "sale_price": 0,
+      "image": "decathclon3.2.webp",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893677bdd644b6038340875"
+      }
+    }
+  ],
+  "hot": 1,
+  "view": 0,
+  "status": "Active",
+  "description": "Lưới được đục lỗ siêu nhỏ mang lại khả năng thông gió lý tưởng khi bạn chạy, bất kể buổi tập căng thẳng đến mức nào.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T14:32:27.989Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T14:32:27.989Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68936b28228eabbc3b1ef569"
+  },
+  "name": "Áo thun tennis nam thoáng khí",
+  "idcate": {
+    "$oid": "67b0a4fbb5a39baf9de368ff"
+  },
+  "colors": [
+    "Xanh",
+    "Đen",
+    "Hồng"
+  ],
+  "sizes": [
+    "L",
+    "XL"
+  ],
+  "images": [
+    "decathclon4.jpg",
+    "decathclon4.2.jpg",
+    "decathclon4.1.jpg"
+  ],
+  "variants": [
+    {
+      "option": "L - Xanh",
+      "size": "L",
+      "color": "Xanh",
+      "price": 379000,
+      "sale_price": 0,
+      "image": "decathclon4.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d3812e8fca191aac0bfe"
+      }
+    },
+    {
+      "option": "L - Đen",
+      "size": "L",
+      "color": "Đen",
+      "price": 379000,
+      "sale_price": 0,
+      "image": "decathclon4.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d3812e8fca191aac0bff"
+      }
+    },
+    {
+      "option": "L - Hồng",
+      "size": "L",
+      "color": "Hồng",
+      "price": 379000,
+      "sale_price": 0,
+      "image": "decathclon4.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d3812e8fca191aac0c00"
+      }
+    },
+    {
+      "option": "XL - Xanh",
+      "size": "XL",
+      "color": "Xanh",
+      "price": 388999,
+      "sale_price": 0,
+      "image": "decathclon4.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d3812e8fca191aac0c01"
+      }
+    },
+    {
+      "option": "XL - Đen",
+      "size": "XL",
+      "color": "Đen",
+      "price": 389000,
+      "sale_price": 0,
+      "image": "decathclon4.1.jpg",
+      "quantity": 0,
+      "_id": {
+        "$oid": "6893d3812e8fca191aac0c02"
+      }
+    },
+    {
+      "option": "XL - Hồng",
+      "size": "XL",
+      "color": "Hồng",
+      "price": 389000,
+      "sale_price": 0,
+      "image": "decathclon4.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d3812e8fca191aac0c03"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T14:48:08.723Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T22:13:21.156Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68936e40228eabbc3b1ef836"
+  },
+  "name": "Áo thun tập gym nam với công nghệ Celliant - 900",
+  "idcate": {
+    "$oid": "67b0a4fbb5a39baf9de368ff"
+  },
+  "colors": [
+    "Trắng",
+    "Đen"
+  ],
+  "sizes": [
+    "M",
+    "L"
+  ],
+  "images": [
+    "decathclon5.jpg",
+    "decathclon5.1.jpg"
+  ],
+  "variants": [
+    {
+      "option": "M - Trắng",
+      "size": "M",
+      "color": "Trắng",
+      "price": 668999,
+      "sale_price": 0,
+      "image": "decathclon5.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689371f4228eabbc3b1efa27"
+      }
+    },
+    {
+      "option": "M - Đen",
+      "size": "M",
+      "color": "Đen",
+      "price": 669000,
+      "sale_price": 0,
+      "image": "decathclon5.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689371f4228eabbc3b1efa28"
+      }
+    },
+    {
+      "option": "L - Trắng",
+      "size": "L",
+      "color": "Trắng",
+      "price": 679000,
+      "sale_price": 0,
+      "image": "decathclon5.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689371f4228eabbc3b1efa29"
+      }
+    },
+    {
+      "option": "L - Đen",
+      "size": "L",
+      "color": "Đen",
+      "price": 679000,
+      "sale_price": 0,
+      "image": "decathclon5.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689371f4228eabbc3b1efa2a"
+      }
+    }
+  ],
+  "hot": 1,
+  "view": 0,
+  "status": "Active",
+  "description": "Áo thun kết hợp giữa sự đổi mới và tính kĩ thuật để bạn luôn hết mình trong các bài tập hằng ngày! Hơn nữa",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T15:01:20.956Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T15:17:08.848Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689371c5228eabbc3b1ef95c"
+  },
+  "name": "Áo thun bóng rổ người lớn - 900 NBA Warriors",
+  "idcate": {
+    "$oid": "67b0a4fbb5a39baf9de368ff"
+  },
+  "colors": [
+    "Trắng",
+    "Đen",
+    "Xanh"
+  ],
+  "sizes": [
+    "M",
+    "XL"
+  ],
+  "images": [
+    "decathclon6.jpg",
+    "decathclon6.1.jpg",
+    "decathclon6.2.jpg"
+  ],
+  "variants": [
+    {
+      "option": "M - Trắng",
+      "size": "M",
+      "color": "Trắng",
+      "price": 419000,
+      "sale_price": 0,
+      "image": "decathclon6.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d6282e8fca191aac144c"
+      }
+    },
+    {
+      "option": "M - Đen",
+      "size": "M",
+      "color": "Đen",
+      "price": 418999,
+      "sale_price": 0,
+      "image": "decathclon6.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d6282e8fca191aac144d"
+      }
+    },
+    {
+      "option": "M - Xanh",
+      "size": "M",
+      "color": "Xanh",
+      "price": 418999,
+      "sale_price": 0,
+      "image": "decathclon6.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d6282e8fca191aac144e"
+      }
+    },
+    {
+      "option": "XL - Trắng",
+      "size": "XL",
+      "color": "Trắng",
+      "price": 418999,
+      "sale_price": 0,
+      "image": "decathclon6.jpg",
+      "quantity": 100,
+      "_id": {
+        "$oid": "6893d6282e8fca191aac144f"
+      }
+    },
+    {
+      "option": "XL - Đen",
+      "size": "XL",
+      "color": "Đen",
+      "price": 419000,
+      "sale_price": 0,
+      "image": "decathclon6.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d6282e8fca191aac1450"
+      }
+    },
+    {
+      "option": "XL - Xanh",
+      "size": "XL",
+      "color": "Xanh",
+      "price": 418998,
+      "sale_price": 0,
+      "image": "decathclon6.2.jpg",
+      "quantity": 90,
+      "_id": {
+        "$oid": "6893d6282e8fca191aac1451"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Áo thun này kết hợp những ưu điểm của cotton (bên ngoài) và polyester (bên trong) để mang đến cho bạn sự mềm mại, thoải mái khi vận động và hạn chế mùi hôi.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T15:16:21.936Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T22:24:40.330Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689373de228eabbc3b1efd7f"
+  },
+  "name": "Áo thun bóng rổ TS500 cho nữ",
+  "idcate": {
+    "$oid": "67b0a54db5a39baf9de36902"
+  },
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "sizes": [
+    "M",
+    "L",
+    "XL"
+  ],
+  "images": [
+    "decathclon7.jpg",
+    "decathclon7.1.jpg"
+  ],
+  "variants": [
+    {
+      "option": "M - Đen",
+      "size": "M",
+      "color": "Đen",
+      "price": 339000,
+      "sale_price": 0,
+      "image": "decathclon7.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689373de228eabbc3b1efd80"
+      }
+    },
+    {
+      "option": "M - Trắng",
+      "size": "M",
+      "color": "Trắng",
+      "price": 339000,
+      "sale_price": 0,
+      "image": "decathclon7.1.jpg",
+      "quantity": 0,
+      "_id": {
+        "$oid": "689373de228eabbc3b1efd81"
+      }
+    },
+    {
+      "option": "L - Đen",
+      "size": "L",
+      "color": "Đen",
+      "price": 339000,
+      "sale_price": 0,
+      "image": "decathclon7.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689373de228eabbc3b1efd82"
+      }
+    },
+    {
+      "option": "L - Trắng",
+      "size": "L",
+      "color": "Trắng",
+      "price": 339000,
+      "sale_price": 0,
+      "image": "decathclon7.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689373de228eabbc3b1efd83"
+      }
+    },
+    {
+      "option": "XL - Đen",
+      "size": "XL",
+      "color": "Đen",
+      "price": 339000,
+      "sale_price": 0,
+      "image": "decathclon7.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689373de228eabbc3b1efd84"
+      }
+    },
+    {
+      "option": "XL - Trắng",
+      "size": "XL",
+      "color": "Trắng",
+      "price": 339000,
+      "sale_price": 0,
+      "image": "decathclon7.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689373de228eabbc3b1efd85"
+      }
+    }
+  ],
+  "hot": 1,
+  "view": 0,
+  "status": "Active",
+  "description": "Chiếc áo thun này được thiết kế để chơi bóng rổ. Rất nhẹ và mềm mại khi mặc, áo thấm hút mồ hôi nhanh chóng nhờ vải thông thoáng. Giữ bạn luôn khô ráo khi chơi!",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T15:25:18.513Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T15:25:18.513Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893756e228eabbc3b1efead"
+  },
+  "name": "Quả bóng đá khâu máy cỡ 5",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Đỏ",
+    "Trắng nhiều màu",
+    "Trắng xanh"
+  ],
+  "sizes": [
+    "5"
+  ],
+  "images": [
+    "decathclon8.jpg",
+    "decathclon8.1.jpg",
+    "decathclon8.2.jpg"
+  ],
+  "variants": [
+    {
+      "option": "5 - Đỏ",
+      "size": "5",
+      "color": "Đỏ",
+      "price": 299000,
+      "sale_price": 0,
+      "image": "decathclon8.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893e1302e8fca191aac3792"
+      }
+    },
+    {
+      "option": "5 - Trắng nhiều màu",
+      "size": "5",
+      "color": "Trắng nhiều màu",
+      "price": 299000,
+      "sale_price": 0,
+      "image": "decathclon8.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893e1302e8fca191aac3793"
+      }
+    },
+    {
+      "option": "5 - Trắng xanh",
+      "size": "5",
+      "color": "Trắng xanh",
+      "price": 299000,
+      "sale_price": 0,
+      "image": "decathclon8.2.jpg",
+      "quantity": 97,
+      "_id": {
+        "$oid": "6893e1302e8fca191aac3794"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Bạn cần một loại bóng cho câu lạc bộ bóng đá? Hãy chọn bóng F100 này vì chất liệu vỏ ngoài bền chắc, lý tưởng cho những người mới học chơi đá bóng.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T15:31:58.589Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T23:11:44.961Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689376e8228eabbc3b1effcc"
+  },
+  "name": "Giày đá bóng sân cỏ nhân tạo 3D Air Mesh - Viralto III",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Xanh",
+    "Đỏ",
+    "Cam"
+  ],
+  "sizes": [
+    "39",
+    "42",
+    "45"
+  ],
+  "images": [
+    "decathclon9.jpg",
+    "decathclon9.1.jpg",
+    "decathclon9.2.jpg"
+  ],
+  "variants": [
+    {
+      "option": "39 - Xanh",
+      "size": "39",
+      "color": "Xanh",
+      "price": 1899001,
+      "sale_price": 0,
+      "image": "decathclon9.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689376e8228eabbc3b1effcd"
+      }
+    },
+    {
+      "option": "39 - Đỏ",
+      "size": "39",
+      "color": "Đỏ",
+      "price": 2899000,
+      "sale_price": 0,
+      "image": "decathclon9.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689376e8228eabbc3b1effce"
+      }
+    },
+    {
+      "option": "39 - Cam",
+      "size": "39",
+      "color": "Cam",
+      "price": 2599000,
+      "sale_price": 0,
+      "image": "decathclon9.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689376e8228eabbc3b1effcf"
+      }
+    },
+    {
+      "option": "42 - Xanh",
+      "size": "42",
+      "color": "Xanh",
+      "price": 1899000,
+      "sale_price": 0,
+      "image": "decathclon9.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689376e8228eabbc3b1effd0"
+      }
+    },
+    {
+      "option": "42 - Đỏ",
+      "size": "42",
+      "color": "Đỏ",
+      "price": 2899000,
+      "sale_price": 0,
+      "image": "decathclon9.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689376e8228eabbc3b1effd1"
+      }
+    },
+    {
+      "option": "42 - Cam",
+      "size": "42",
+      "color": "Cam",
+      "price": 2599000,
+      "sale_price": 0,
+      "image": "decathclon9.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689376e8228eabbc3b1effd2"
+      }
+    },
+    {
+      "option": "45 - Xanh",
+      "size": "45",
+      "color": "Xanh",
+      "price": 1899000,
+      "sale_price": 0,
+      "image": "decathclon9.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689376e8228eabbc3b1effd3"
+      }
+    },
+    {
+      "option": "45 - Đỏ",
+      "size": "45",
+      "color": "Đỏ",
+      "price": 2899000,
+      "sale_price": 0,
+      "image": "decathclon9.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689376e8228eabbc3b1effd4"
+      }
+    },
+    {
+      "option": "45 - Cam",
+      "size": "45",
+      "color": "Cam",
+      "price": 2599000,
+      "sale_price": 0,
+      "image": "decathclon9.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689376e8228eabbc3b1effd5"
+      }
+    }
+  ],
+  "hot": 1,
+  "view": 0,
+  "status": "Active",
+  "description": "Kiểm soát bóng tuyệt đối cùng Viralto III! Cực kỳ thoải mái và có tính chuyên dụng cao nhờ phần thân trên Air Mesh và đế giày linh hoạt Flex-H. Cho cảm giác bóng tuyệt vời và chuyền bóng chuẩn xác.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T15:38:16.819Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T15:38:16.819Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689378132e8fca191aabf980"
+  },
+  "name": "Găng tay thủ môn cho người lớn siêu bền - F100",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Đen"
+  ],
+  "sizes": [
+    "8",
+    "9",
+    "10"
+  ],
+  "images": [
+    "decathclon10.jpg"
+  ],
+  "variants": [
+    {
+      "option": "8 - Đen",
+      "size": "8",
+      "color": "Đen",
+      "price": 599000,
+      "sale_price": 0,
+      "image": "decathclon10.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893e1362e8fca191aac37dd"
+      }
+    },
+    {
+      "option": "9 - Đen",
+      "size": "9",
+      "color": "Đen",
+      "price": 599000,
+      "sale_price": 0,
+      "image": "decathclon10.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893e1362e8fca191aac37de"
+      }
+    },
+    {
+      "option": "10 - Đen",
+      "size": "10",
+      "color": "Đen",
+      "price": 599000,
+      "sale_price": 0,
+      "image": "decathclon10.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893e1362e8fca191aac37df"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Bạn muốn sở hữu đôi găng tay thủ môn bền nhất? Găng tay F100 Superresist là lựa chọn tuyệt vời cho bạn, với lớp phủ cao su Latex thật đảm bảo độ bám giúp cản phá bóng tốt hơn.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T15:43:15.429Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T23:11:50.776Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893ce3f2e8fca191aac0143"
+  },
+  "name": "Găng tay thủ môn người lớn - Viralto F900 ",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Đen"
+  ],
+  "sizes": [
+    "8",
+    "9",
+    "10"
+  ],
+  "images": [
+    "decathclon10.1.jpg"
+  ],
+  "variants": [
+    {
+      "option": "8 - Đen",
+      "size": "8",
+      "color": "Đen",
+      "price": 899000,
+      "sale_price": 0,
+      "image": "decathclon10.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893ce3f2e8fca191aac0144"
+      }
+    },
+    {
+      "option": "9 - Đen",
+      "size": "9",
+      "color": "Đen",
+      "price": 899000,
+      "sale_price": 0,
+      "image": "decathclon10.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893ce3f2e8fca191aac0145"
+      }
+    },
+    {
+      "option": "10 - Đen",
+      "size": "10",
+      "color": "Đen",
+      "price": 899000,
+      "sale_price": 0,
+      "image": "decathclon10.1.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "6893ce3f2e8fca191aac0146"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Bạn đang tìm kiếm găng tay thủ môn với độ bám tốt? Chúng tôi đã cho ra đời dòng găng tay F900 VIRALTO với lòng bàn tay được phủ lớp cao su latex GigaGrip, đảm bảo khả năng xử lý bóng tuyệt vời.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T21:50:55.106Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T21:50:55.106Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893cf062e8fca191aac023e"
+  },
+  "name": "Găng tay thủ môn người lớn - F500 Viralto",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Trắng"
+  ],
+  "sizes": [
+    "7",
+    "8",
+    "9",
+    "10"
+  ],
+  "images": [
+    "decathclon10.2.jpg"
+  ],
+  "variants": [
+    {
+      "option": "7 - Trắng",
+      "size": "7",
+      "color": "Trắng",
+      "price": 738999,
+      "sale_price": 0,
+      "image": "decathclon10.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893cf062e8fca191aac023f"
+      }
+    },
+    {
+      "option": "8 - Trắng",
+      "size": "8",
+      "color": "Trắng",
+      "price": 738999,
+      "sale_price": 0,
+      "image": "decathclon10.2.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "6893cf062e8fca191aac0240"
+      }
+    },
+    {
+      "option": "9 - Trắng",
+      "size": "9",
+      "color": "Trắng",
+      "price": 738999,
+      "sale_price": 0,
+      "image": "decathclon10.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893cf062e8fca191aac0241"
+      }
+    },
+    {
+      "option": "10 - Trắng",
+      "size": "10",
+      "color": "Trắng",
+      "price": 738999,
+      "sale_price": 0,
+      "image": "decathclon10.2.jpg",
+      "quantity": 97,
+      "_id": {
+        "$oid": "6893cf062e8fca191aac0242"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Găng tay thủ môn F500 được thiết kế với phần lòng bàn tay được bao phủ bởi cao su Latex cao cấp, tạo ra sự cân bằng tuyệt vời giữa độ bền và độ bám.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T21:54:14.220Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T21:54:14.220Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893cfad2e8fca191aac04c8"
+  },
+  "name": "Găng tay thủ môn trẻ em - F500 Viralto",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Cam"
+  ],
+  "sizes": [
+    "4",
+    "5",
+    "6"
+  ],
+  "images": [
+    "decathclon10.4.jpg"
+  ],
+  "variants": [
+    {
+      "option": "4 - Cam",
+      "size": "4",
+      "color": "Cam",
+      "price": 739000,
+      "sale_price": 0,
+      "image": "decathclon10.4.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "6893cfad2e8fca191aac04c9"
+      }
+    },
+    {
+      "option": "5 - Cam",
+      "size": "5",
+      "color": "Cam",
+      "price": 739000,
+      "sale_price": 0,
+      "image": "decathclon10.4.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893cfad2e8fca191aac04ca"
+      }
+    },
+    {
+      "option": "6 - Cam",
+      "size": "6",
+      "color": "Cam",
+      "price": 739000,
+      "sale_price": 0,
+      "image": "decathclon10.4.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893cfad2e8fca191aac04cb"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Đội ngũ thiết kế tại Decathlon đã cho ra đời mẫu găng tay F500 Viralto bằng cao su latex \"HARDSOFT\" siêu bền bỉ và an toàn cho đôi tay bé.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T21:57:01.059Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T21:57:01.059Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893d0282e8fca191aac05b8"
+  },
+  "name": "Găng tay thủ môn đá bóng trẻ em siêu bền - F100",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Đỏ"
+  ],
+  "sizes": [
+    "4",
+    "5",
+    "6"
+  ],
+  "images": [
+    "decathclon10.5.jpg"
+  ],
+  "variants": [
+    {
+      "option": "4 - Đỏ",
+      "size": "4",
+      "color": "Đỏ",
+      "price": 459000,
+      "sale_price": 0,
+      "image": "decathclon10.5.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d0282e8fca191aac05b9"
+      }
+    },
+    {
+      "option": "5 - Đỏ",
+      "size": "5",
+      "color": "Đỏ",
+      "price": 459000,
+      "sale_price": 0,
+      "image": "decathclon10.5.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d0282e8fca191aac05ba"
+      }
+    },
+    {
+      "option": "6 - Đỏ",
+      "size": "6",
+      "color": "Đỏ",
+      "price": 459000,
+      "sale_price": 0,
+      "image": "decathclon10.5.jpg",
+      "quantity": 97,
+      "_id": {
+        "$oid": "6893d0282e8fca191aac05bb"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Bạn muốn sở hữu đôi găng tay thủ môn bền nhất? Găng tay F100 Superresist là lựa chọn tuyệt vời cho bạn, với lớp phủ cao su Latex thật đảm bảo độ bám giúp cản phá bóng tốt hơn.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T21:59:04.281Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T21:59:04.281Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893d0be2e8fca191aac07a7"
+  },
+  "name": "Găng tay thủ môn bóng đá trẻ em - First",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Xanh"
+  ],
+  "sizes": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+  ],
+  "images": [
+    "decathclon10.6.jpg"
+  ],
+  "variants": [
+    {
+      "option": "2 - Xanh",
+      "size": "2",
+      "color": "Xanh",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "decathclon10.6.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d0be2e8fca191aac07a8"
+      }
+    },
+    {
+      "option": "3 - Xanh",
+      "size": "3",
+      "color": "Xanh",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "decathclon10.6.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d0be2e8fca191aac07a9"
+      }
+    },
+    {
+      "option": "4 - Xanh",
+      "size": "4",
+      "color": "Xanh",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "decathclon10.6.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d0be2e8fca191aac07aa"
+      }
+    },
+    {
+      "option": "5 - Xanh",
+      "size": "5",
+      "color": "Xanh",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "decathclon10.6.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d0be2e8fca191aac07ab"
+      }
+    },
+    {
+      "option": "6 - Xanh",
+      "size": "6",
+      "color": "Xanh",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "decathclon10.6.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d0be2e8fca191aac07ac"
+      }
+    },
+    {
+      "option": "7 - Xanh",
+      "size": "7",
+      "color": "Xanh",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "decathclon10.6.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "6893d0be2e8fca191aac07ad"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Đôi khi, một pha cứu thua xuất sắc đòi hỏi một pha đổ người đẹp mắt! Găng tay này được thiết kế bền bỉ. Lớp phủ EVA giảm ma sát, giúp tăng độ bền khi đổ người và bắt bóng liên tục.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T22:01:34.262Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T22:01:34.262Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893d2f82e8fca191aac088b"
+  },
+  "name": "Balo thể thao 25L - Urban",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Đen",
+    "Xanh"
+  ],
+  "sizes": [
+    "Một cỡ duy nhất"
+  ],
+  "images": [
+    "decathclon11.jpg",
+    "decathclon11.1.jpg"
+  ],
+  "variants": [
+    {
+      "option": "Một cỡ duy nhất - Đen",
+      "size": "Một cỡ duy nhất",
+      "color": "Đen",
+      "price": 969000,
+      "sale_price": 0,
+      "image": "decathclon11.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d2f82e8fca191aac088c"
+      }
+    },
+    {
+      "option": "Một cỡ duy nhất - Xanh",
+      "size": "Một cỡ duy nhất",
+      "color": "Xanh",
+      "price": 969000,
+      "sale_price": 0,
+      "image": "decathclon11.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d2f82e8fca191aac088d"
+      }
+    }
+  ],
+  "hot": 1,
+  "view": 0,
+  "status": "Active",
+  "description": "Bạn đang tìm kiếm một chiếc balo tiện dụng? Balo Urban có nhiều ngăn đựng đồ thể thao cũng như đồ dùng hàng ngày như laptop.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T22:11:04.453Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T22:11:04.453Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893d3702e8fca191aac0b70"
+  },
+  "name": "Balô Tennis 100 BP",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Đen"
+  ],
+  "sizes": [
+    "Một cỡ duy nhất"
+  ],
+  "images": [
+    "a1.jpg"
+  ],
+  "variants": [
+    {
+      "option": "Một cỡ duy nhất - Đen",
+      "size": "Một cỡ duy nhất",
+      "color": "Đen",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "a1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d3702e8fca191aac0b71"
+      }
+    }
+  ],
+  "hot": 1,
+  "view": 0,
+  "status": "Active",
+  "description": "Balô Artengo này được thiết kế riêng cho các môn thể thao dùng vợt. Một túi bên ngoài giúp bảo vệ vợt và một túi giữa đựng đồ thể thao.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T22:13:04.678Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T22:13:04.678Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893d55a2e8fca191aac0d30"
+  },
+  "name": "Đồ bơi một mảnh dài tay Una cho nữ",
+  "idcate": {
+    "$oid": "67b0a54db5a39baf9de36902"
+  },
+  "colors": [
+    "Đen",
+    "Xanh dương",
+    "Xanh lá"
+  ],
+  "sizes": [
+    "36",
+    "38",
+    "40"
+  ],
+  "images": [
+    "a2.jpg",
+    "a2.2.jpg",
+    "a2.1.jpg"
+  ],
+  "variants": [
+    {
+      "option": "36 - Đen",
+      "size": "36",
+      "color": "Đen",
+      "price": 569000,
+      "sale_price": 0,
+      "image": "a2.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "6893d5a12e8fca191aac0e26"
+      }
+    },
+    {
+      "option": "36 - Xanh dương",
+      "size": "36",
+      "color": "Xanh dương",
+      "price": 599000,
+      "sale_price": 0,
+      "image": "a2.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d5a12e8fca191aac0e27"
+      }
+    },
+    {
+      "option": "36 - Xanh lá",
+      "size": "36",
+      "color": "Xanh lá",
+      "price": 699000,
+      "sale_price": 0,
+      "image": "a2.1.jpg",
+      "quantity": 100,
+      "_id": {
+        "$oid": "6893d5a12e8fca191aac0e28"
+      }
+    },
+    {
+      "option": "38 - Đen",
+      "size": "38",
+      "color": "Đen",
+      "price": 569000,
+      "sale_price": 0,
+      "image": "a2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d5a12e8fca191aac0e29"
+      }
+    },
+    {
+      "option": "38 - Xanh dương",
+      "size": "38",
+      "color": "Xanh dương",
+      "price": 599000,
+      "sale_price": 0,
+      "image": "a2.2.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "6893d5a12e8fca191aac0e2a"
+      }
+    },
+    {
+      "option": "38 - Xanh lá",
+      "size": "38",
+      "color": "Xanh lá",
+      "price": 699000,
+      "sale_price": 0,
+      "image": "a2.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d5a12e8fca191aac0e2b"
+      }
+    },
+    {
+      "option": "40 - Đen",
+      "size": "40",
+      "color": "Đen",
+      "price": 569000,
+      "sale_price": 0,
+      "image": "a2.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "6893d5a12e8fca191aac0e2c"
+      }
+    },
+    {
+      "option": "40 - Xanh dương",
+      "size": "40",
+      "color": "Xanh dương",
+      "price": 599000,
+      "sale_price": 0,
+      "image": "a2.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d5a12e8fca191aac0e2d"
+      }
+    },
+    {
+      "option": "40 - Xanh lá",
+      "size": "40",
+      "color": "Xanh lá",
+      "price": 699000,
+      "sale_price": 0,
+      "image": "a2.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d5a12e8fca191aac0e2e"
+      }
+    }
+  ],
+  "hot": 1,
+  "view": 0,
+  "status": "Active",
+  "description": "Bạn tìm kiếm trang phục bơi phong cách? Đồ bơi tay dài và dạng váy, có thêm mút ngực bên trong giúp người bơi tự tin hơn.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T22:21:14.551Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T22:22:25.380Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893d6e12e8fca191aac17e3"
+  },
+  "name": "Kính bơi tròng kính trong suốt một cỡ - Ready",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Xám"
+  ],
+  "sizes": [
+    "Một cỡ duy nhất"
+  ],
+  "images": [
+    "a3.jpg"
+  ],
+  "variants": [
+    {
+      "option": "Một cỡ duy nhất - Xám",
+      "size": "Một cỡ duy nhất",
+      "color": "Xám",
+      "price": 79000,
+      "sale_price": 0,
+      "image": "a3.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d6e12e8fca191aac17e4"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Bạn muốn tìm kính bơi với mức giá hợp lý? Mẫu sản phẩm này có thể điều chỉnh được, giúp bạn nhìn rõ dưới nước và điều chỉnh kính vừa với vòng đầu của mình.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T22:27:45.676Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T22:27:45.676Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893d7812e8fca191aac1823"
+  },
+  "name": "Kính bơi trẻ em tròng kính tráng gương - Spirit",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Trắng"
+  ],
+  "sizes": [
+    "S"
+  ],
+  "images": [
+    "a4.jpg"
+  ],
+  "variants": [
+    {
+      "option": "S - Trắng",
+      "size": "S",
+      "color": "Trắng",
+      "price": 499000,
+      "sale_price": 399000,
+      "image": "a4.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d7812e8fca191aac1824"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Kính bơi của bạn để lại vết hằn tròn quanh mắt? Viền kính siêu mềm, tầm nhìn rộng và nâng đỡ tuyệt vời của kính SPIRIT giúp bạn có thể bơi thoải mái mà không bị cản trở tầm nhìn.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T22:30:25.085Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T22:30:25.085Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893d8832e8fca191aac20e7"
+  },
+  "name": "Kính bơi tròng kính tráng gương một cỡ - B-Fast 900",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Xanh"
+  ],
+  "sizes": [
+    "Một cỡ duy nhất"
+  ],
+  "images": [
+    "a5.jpg"
+  ],
+  "variants": [
+    {
+      "option": "Một cỡ duy nhất - Xanh",
+      "size": "Một cỡ duy nhất",
+      "color": "Xanh",
+      "price": 799000,
+      "sale_price": 0,
+      "image": "a5.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d8832e8fca191aac20e8"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T22:34:43.945Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T22:34:43.945Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893d9652e8fca191aac2373"
+  },
+  "name": "Áo bơi lướt sóng có đệm ngực Andrea cho nữ",
+  "idcate": {
+    "$oid": "67b0a54db5a39baf9de36902"
+  },
+  "colors": [
+    "Đen"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "XL"
+  ],
+  "images": [
+    "a6.jpg"
+  ],
+  "variants": [
+    {
+      "option": "S - Đen",
+      "size": "S",
+      "color": "Đen",
+      "price": 399000,
+      "sale_price": 0,
+      "image": "a6.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893da1c2e8fca191aac24fe"
+      }
+    },
+    {
+      "option": "M - Đen",
+      "size": "M",
+      "color": "Đen",
+      "price": 399000,
+      "sale_price": 0,
+      "image": "a6.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893da1c2e8fca191aac24ff"
+      }
+    },
+    {
+      "option": "XL - Đen",
+      "size": "XL",
+      "color": "Đen",
+      "price": 399000,
+      "sale_price": 0,
+      "image": "a6.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893da1c2e8fca191aac2500"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Áo bơi này che phủ toàn bộ phần ngực phía trước. Để lộ vai và lưng. Dây đeo chéo điều chỉnh được. Mút ngực có thể tháo rời.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T22:38:29.087Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T22:41:32.639Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893d9ea2e8fca191aac2426"
+  },
+  "name": "Áo bơi lướt sóng cúp ngực rời MARINE cho nữ",
+  "idcate": {
+    "$oid": "67b0a54db5a39baf9de36902"
+  },
+  "colors": [
+    "Đen"
+  ],
+  "sizes": [
+    "S",
+    "L",
+    "XL"
+  ],
+  "images": [
+    "a7.jpg"
+  ],
+  "variants": [
+    {
+      "option": "S - Đen",
+      "size": "S",
+      "color": "Đen",
+      "price": 419000,
+      "sale_price": 0,
+      "image": "a7.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "6893d9ea2e8fca191aac2427"
+      }
+    },
+    {
+      "option": "L - Đen",
+      "size": "L",
+      "color": "Đen",
+      "price": 419000,
+      "sale_price": 0,
+      "image": "a7.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893d9ea2e8fca191aac2428"
+      }
+    },
+    {
+      "option": "XL - Đen",
+      "size": "XL",
+      "color": "Đen",
+      "price": 419000,
+      "sale_price": 0,
+      "image": "a7.jpg",
+      "quantity": 97,
+      "_id": {
+        "$oid": "6893d9ea2e8fca191aac2429"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Áo bơi tankini cực kỳ nữ tính với cổ chữ V phía trước và sau, có khả năng che chắn như đồ bơi một mảnh nhưng cho phép bạn chọn cỡ áo và quần cho phù hợp. Mút ngực có thể tháo rời.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T22:40:42.868Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T22:40:42.868Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893da7f2e8fca191aac2535"
+  },
+  "name": "Áo bơi bikini đi biển lướt sóng nữ",
+  "idcate": {
+    "$oid": "67b0a54db5a39baf9de36902"
+  },
+  "colors": [
+    "Hồng"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "XL"
+  ],
+  "images": [
+    "a8.jpg"
+  ],
+  "variants": [
+    {
+      "option": "S - Hồng",
+      "size": "S",
+      "color": "Hồng",
+      "price": 149000,
+      "sale_price": 0,
+      "image": "a8.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893da7f2e8fca191aac2536"
+      }
+    },
+    {
+      "option": "M - Hồng",
+      "size": "M",
+      "color": "Hồng",
+      "price": 149000,
+      "sale_price": 0,
+      "image": "a8.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "6893da7f2e8fca191aac2537"
+      }
+    },
+    {
+      "option": "XL - Hồng",
+      "size": "XL",
+      "color": "Hồng",
+      "price": 149000,
+      "sale_price": 0,
+      "image": "a8.jpg",
+      "quantity": 96,
+      "_id": {
+        "$oid": "6893da7f2e8fca191aac2538"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Áo bơi có viền áo co giãn, dây buộc lưng và dây buộc cổ có thể điều chỉnh.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T22:43:11.089Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T22:43:11.089Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893daee2e8fca191aac256a"
+  },
+  "name": "Áo bikini đi biển lướt sóng - Mae",
+  "idcate": {
+    "$oid": "67b0a54db5a39baf9de36902"
+  },
+  "colors": [
+    "Đen"
+  ],
+  "sizes": [
+    "S",
+    "L",
+    "XL"
+  ],
+  "images": [
+    "a9.jpg"
+  ],
+  "variants": [
+    {
+      "option": "S - Đen",
+      "size": "S",
+      "color": "Đen",
+      "price": 219000,
+      "sale_price": 0,
+      "image": "a9.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893daee2e8fca191aac256b"
+      }
+    },
+    {
+      "option": "L - Đen",
+      "size": "L",
+      "color": "Đen",
+      "price": 219000,
+      "sale_price": 0,
+      "image": "a9.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893daee2e8fca191aac256c"
+      }
+    },
+    {
+      "option": "XL - Đen",
+      "size": "XL",
+      "color": "Đen",
+      "price": 219000,
+      "sale_price": 0,
+      "image": "a9.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "6893daee2e8fca191aac256d"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Áo bơi bikini kiểu tam giác có cúp đệm có thể tháo rời, giúp che ngực, viền áo co giãn và dây buộc lưng và buộc cổ có thể điều chỉnh.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T22:45:02.143Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T22:45:02.143Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893dbd42e8fca191aac25a4"
+  },
+  "name": "Áo bơi bikini nữ - Laura",
+  "idcate": {
+    "$oid": "67b0a54db5a39baf9de36902"
+  },
+  "colors": [
+    "Xanh dương",
+    "Xanh ngọc"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "XL"
+  ],
+  "images": [
+    "a10.jpg",
+    "a10.1.jpg"
+  ],
+  "variants": [
+    {
+      "option": "S - Xanh dương",
+      "size": "S",
+      "color": "Xanh dương",
+      "price": 219000,
+      "sale_price": 0,
+      "image": "a10.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dbd42e8fca191aac25a5"
+      }
+    },
+    {
+      "option": "S - Xanh ngọc",
+      "size": "S",
+      "color": "Xanh ngọc",
+      "price": 219000,
+      "sale_price": 0,
+      "image": "a10.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dbd42e8fca191aac25a6"
+      }
+    },
+    {
+      "option": "M - Xanh dương",
+      "size": "M",
+      "color": "Xanh dương",
+      "price": 219000,
+      "sale_price": 0,
+      "image": "a10.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dbd42e8fca191aac25a7"
+      }
+    },
+    {
+      "option": "M - Xanh ngọc",
+      "size": "M",
+      "color": "Xanh ngọc",
+      "price": 219000,
+      "sale_price": 0,
+      "image": "a10.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dbd42e8fca191aac25a8"
+      }
+    },
+    {
+      "option": "XL - Xanh dương",
+      "size": "XL",
+      "color": "Xanh dương",
+      "price": 219000,
+      "sale_price": 0,
+      "image": "a10.jpg",
+      "quantity": 101,
+      "_id": {
+        "$oid": "6893dbd42e8fca191aac25a9"
+      }
+    },
+    {
+      "option": "XL - Xanh ngọc",
+      "size": "XL",
+      "color": "Xanh ngọc",
+      "price": 219000,
+      "sale_price": 0,
+      "image": "a10.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dbd42e8fca191aac25aa"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Áo bikini với thiết kế rất đơn giản phù hợp cho người lướt sóng muốn để lộ vai và không cần độ bám quá chặt khi lướt sóng. Có đệm ngực rời và dây buộc.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T22:48:52.263Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T22:48:52.263Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893dcda2e8fca191aac2667"
+  },
+  "name": "Áo bơi đi biển trẻ em chống nắng - 100",
+  "idcate": {
+    "$oid": "67b0a54db5a39baf9de36902"
+  },
+  "colors": [
+    "Hồng"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "images": [
+    "b1.jpg"
+  ],
+  "variants": [
+    {
+      "option": "S - Hồng",
+      "size": "S",
+      "color": "Hồng",
+      "price": 129000,
+      "sale_price": 0,
+      "image": "b1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dd732e8fca191aac27d5"
+      }
+    },
+    {
+      "option": "M - Hồng",
+      "size": "M",
+      "color": "Hồng",
+      "price": 129000,
+      "sale_price": 0,
+      "image": "b1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dd732e8fca191aac27d6"
+      }
+    },
+    {
+      "option": "L - Hồng",
+      "size": "L",
+      "color": "Hồng",
+      "price": 129000,
+      "sale_price": 0,
+      "image": "b1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dd732e8fca191aac27d7"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Áo thun chống tia cực tím cho trẻ em, giúp chống nắng ngay cả khi dưới nước và giảm kích ứng da khi tiếp xúc với ván. Phom dáng suông dễ mặc.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T22:53:14.259Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T22:55:47.134Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893dd4f2e8fca191aac27a3"
+  },
+  "name": "Áo thun lướt sóng chống tia UV 100 cho trẻ em",
+  "idcate": {
+    "$oid": "67b0a4fbb5a39baf9de368ff"
+  },
+  "colors": [
+    "Xanh"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "images": [
+    "b1.1.jpg"
+  ],
+  "variants": [
+    {
+      "option": "S - Xanh",
+      "size": "S",
+      "color": "Xanh",
+      "price": 129000,
+      "sale_price": 0,
+      "image": "b1.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dd4f2e8fca191aac27a4"
+      }
+    },
+    {
+      "option": "M - Xanh",
+      "size": "M",
+      "color": "Xanh",
+      "price": 129000,
+      "sale_price": 0,
+      "image": "b1.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dd4f2e8fca191aac27a5"
+      }
+    },
+    {
+      "option": "L - Xanh",
+      "size": "L",
+      "color": "Xanh",
+      "price": 129000,
+      "sale_price": 0,
+      "image": "b1.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893dd4f2e8fca191aac27a6"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Áo thun chống tia cực tím cho trẻ em, giúp chống nắng ngay cả khi dưới nước và giảm kích ứng da khi tiếp xúc với ván. Phom dáng suông dễ mặc.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T22:55:11.631Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T22:55:11.631Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893de302e8fca191aac2809"
+  },
+  "name": "Áo thun lướt sóng trẻ em chống nắng - 100",
+  "idcate": {
+    "$oid": "67b0a4fbb5a39baf9de368ff"
+  },
+  "colors": [
+    "Đỏ"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "images": [
+    "b2.1.jpg"
+  ],
+  "variants": [
+    {
+      "option": "S - Đỏ",
+      "size": "S",
+      "color": "Đỏ",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "b2.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893de302e8fca191aac280a"
+      }
+    },
+    {
+      "option": "M - Đỏ",
+      "size": "M",
+      "color": "Đỏ",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "b2.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893de302e8fca191aac280b"
+      }
+    },
+    {
+      "option": "L - Đỏ",
+      "size": "L",
+      "color": "Đỏ",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "b2.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893de302e8fca191aac280c"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Áo thun ngắn tay chống tia cực tím cho trẻ em giúp bảo vệ chống nắng ngay cả khi ở dưới nước và hạn kích ứng khi tiếp xúc với ván. Kiểu dáng ôm sát giữ áo cố định hơn khi ở dưới nước.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T22:58:56.343Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T22:58:56.343Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893de762e8fca191aac283f"
+  },
+  "name": "Áo bơi đi biển trẻ em chống nắng - 100",
+  "idcate": {
+    "$oid": "67b0a54db5a39baf9de36902"
+  },
+  "colors": [
+    "Đen"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "XL"
+  ],
+  "images": [
+    "b2.jpg"
+  ],
+  "variants": [
+    {
+      "option": "S - Đen",
+      "size": "S",
+      "color": "Đen",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "b2.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "6893de762e8fca191aac2840"
+      }
+    },
+    {
+      "option": "M - Đen",
+      "size": "M",
+      "color": "Đen",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "b2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893de762e8fca191aac2841"
+      }
+    },
+    {
+      "option": "XL - Đen",
+      "size": "XL",
+      "color": "Đen",
+      "price": 159000,
+      "sale_price": 0,
+      "image": "b2.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "6893de762e8fca191aac2842"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Áo thun ngắn tay chống tia cực tím cho trẻ em giúp bảo vệ chống nắng ngay cả khi ở dưới nước và hạn kích ứng khi tiếp xúc với ván. Kiểu dáng ôm sát giữ áo cố định hơn khi ở dưới nước.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T23:00:06.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T23:00:06.771Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893df632e8fca191aac2909"
+  },
+  "name": "Áo thun bơi bé trai dài tay chống tia UV - 500",
+  "idcate": {
+    "$oid": "67b0a4fbb5a39baf9de368ff"
+  },
+  "colors": [
+    "Xanh xám",
+    "Xám xanh"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "images": [
+    "b3.jpg",
+    "b3.1.jpg"
+  ],
+  "variants": [
+    {
+      "option": "S - Xanh xám",
+      "size": "S",
+      "color": "Xanh xám",
+      "price": 359000,
+      "sale_price": 0,
+      "image": "b3.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df632e8fca191aac290a"
+      }
+    },
+    {
+      "option": "S - Xám xanh",
+      "size": "S",
+      "color": "Xám xanh",
+      "price": 359000,
+      "sale_price": 0,
+      "image": "b3.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df632e8fca191aac290b"
+      }
+    },
+    {
+      "option": "M - Xanh xám",
+      "size": "M",
+      "color": "Xanh xám",
+      "price": 359000,
+      "sale_price": 0,
+      "image": "b3.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df632e8fca191aac290c"
+      }
+    },
+    {
+      "option": "M - Xám xanh",
+      "size": "M",
+      "color": "Xám xanh",
+      "price": 359000,
+      "sale_price": 0,
+      "image": "b3.1.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "6893df632e8fca191aac290d"
+      }
+    },
+    {
+      "option": "L - Xanh xám",
+      "size": "L",
+      "color": "Xanh xám",
+      "price": 359000,
+      "sale_price": 0,
+      "image": "b3.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df632e8fca191aac290e"
+      }
+    },
+    {
+      "option": "L - Xám xanh",
+      "size": "L",
+      "color": "Xám xanh",
+      "price": 359000,
+      "sale_price": 0,
+      "image": "b3.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893df632e8fca191aac290f"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Phom ôm và chất liệu co giãn - Đường may hạn chế kích ứng vùng dưới nách - Có khóa móc vào quần bơi để giữ cố định khi lướt sóng.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T23:04:03.646Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T23:04:03.646Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6893e1172e8fca191aac33f5"
+  },
+  "name": "Áo bơi đi biển bé gái chống nắng dài tay - 500",
+  "idcate": {
+    "$oid": "67b0a54db5a39baf9de36902"
+  },
+  "colors": [
+    "Đen",
+    "Tím",
+    "Xanh"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "images": [
+    "b4.1.jpg",
+    "b4.jpg",
+    "b4.2.jpg"
+  ],
+  "variants": [
+    {
+      "option": "S - Đen",
+      "size": "S",
+      "color": "Đen",
+      "price": 379000,
+      "sale_price": 0,
+      "image": "b4.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893e1172e8fca191aac33f6"
+      }
+    },
+    {
+      "option": "S - Tím",
+      "size": "S",
+      "color": "Tím",
+      "price": 339000,
+      "sale_price": 0,
+      "image": "b4.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893e1172e8fca191aac33f7"
+      }
+    },
+    {
+      "option": "S - Xanh",
+      "size": "S",
+      "color": "Xanh",
+      "price": 339000,
+      "sale_price": 0,
+      "image": "b4.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893e1172e8fca191aac33f8"
+      }
+    },
+    {
+      "option": "M - Đen",
+      "size": "M",
+      "color": "Đen",
+      "price": 379000,
+      "sale_price": 0,
+      "image": "b4.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893e1172e8fca191aac33f9"
+      }
+    },
+    {
+      "option": "M - Tím",
+      "size": "M",
+      "color": "Tím",
+      "price": 339000,
+      "sale_price": 0,
+      "image": "b4.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893e1172e8fca191aac33fa"
+      }
+    },
+    {
+      "option": "M - Xanh",
+      "size": "M",
+      "color": "Xanh",
+      "price": 339000,
+      "sale_price": 0,
+      "image": "b4.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893e1172e8fca191aac33fb"
+      }
+    },
+    {
+      "option": "L - Đen",
+      "size": "L",
+      "color": "Đen",
+      "price": 379000,
+      "sale_price": 0,
+      "image": "b4.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893e1172e8fca191aac33fc"
+      }
+    },
+    {
+      "option": "L - Tím",
+      "size": "L",
+      "color": "Tím",
+      "price": 339000,
+      "sale_price": 0,
+      "image": "b4.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893e1172e8fca191aac33fd"
+      }
+    },
+    {
+      "option": "L - Xanh",
+      "size": "L",
+      "color": "Xanh",
+      "price": 339000,
+      "sale_price": 0,
+      "image": "b4.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6893e1172e8fca191aac33fe"
+      }
+    }
+  ],
+  "hot": 1,
+  "view": 0,
+  "status": "Active",
+  "description": "Áo thun dài tay chống tia cực tím cho trẻ em bảo vệ chống nắng ngay cả khi dưới nước và giảm kích ứng da khi tiếp xúc với ván. Phom dáng ôm, chất vải co giãn và thoải mái!",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-06T23:11:19.186Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T23:11:19.186Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689482a02e8fca191aac3fd0"
+  },
+  "name": "Tạ lục giác 5 kg",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Đen"
+  ],
+  "sizes": [
+    "Một cỡ duy nhất"
+  ],
+  "images": [
+    "b5.jpg"
+  ],
+  "variants": [
+    {
+      "option": "Một cỡ duy nhất - Đen",
+      "size": "Một cỡ duy nhất",
+      "color": "Đen",
+      "price": 599000,
+      "sale_price": 0,
+      "image": "b5.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689482a02e8fca191aac3fd1"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Tạ cầm tay đa dụng dùng trong các bài tập thể hình và các bài tập thường ngày (các bài tập dạng chống đẩy). Hình lục giác mang lại sự ổn định tốt hơn. Cao su bền chắc bảo vệ tạ khỏi các tác động.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-07T10:40:32.909Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T10:40:32.909Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6894830c2e8fca191aac40b7"
+  },
+  "name": "Tạ lục giác 2,5 kg",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Đen"
+  ],
+  "sizes": [
+    "Một cỡ duy nhất"
+  ],
+  "images": [
+    "b5.1.jpg"
+  ],
+  "variants": [
+    {
+      "option": "Một cỡ duy nhất - Đen",
+      "size": "Một cỡ duy nhất",
+      "color": "Đen",
+      "price": 339000,
+      "sale_price": 0,
+      "image": "b5.1.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "6894830c2e8fca191aac40b8"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Tạ cầm tay đa dụng dùng trong các bài tập thể hình và các bài tập thường ngày (các bài tập dạng chống đẩy). Hình lục giác mang lại sự ổn định tốt hơn. Cao su bền chắc bảo vệ tạ khỏi các tác động.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-07T10:42:20.418Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T10:42:20.418Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689483742e8fca191aac40f2"
+  },
+  "name": "Tạ lục giác luyện 7,5kg",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Đen"
+  ],
+  "sizes": [
+    "Một cỡ duy nhất"
+  ],
+  "images": [
+    "b5.2.jpg"
+  ],
+  "variants": [
+    {
+      "option": "Một cỡ duy nhất - Đen",
+      "size": "Một cỡ duy nhất",
+      "color": "Đen",
+      "price": 799000,
+      "sale_price": 0,
+      "image": "b5.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689483742e8fca191aac40f3"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Tạ cầm tay đa dụng dùng trong các bài tập thể hình và các bài tập thường ngày (các bài tập dạng chống đẩy). Hình lục giác mang lại sự ổn định tốt hơn. Cao su bền chắc bảo vệ tạ khỏi các tác động.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-07T10:44:04.709Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T10:44:04.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689483ee2e8fca191aac412b"
+  },
+  "name": "Tạ lục giác 10kg",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Đen"
+  ],
+  "sizes": [
+    "Một cỡ duy nhất"
+  ],
+  "images": [
+    "b5.3.jpg"
+  ],
+  "variants": [
+    {
+      "option": "Một cỡ duy nhất - Đen",
+      "size": "Một cỡ duy nhất",
+      "color": "Đen",
+      "price": 999000,
+      "sale_price": 0,
+      "image": "b5.3.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "689483ee2e8fca191aac412c"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Với thiết kế tiện lợi, tạ 10kg này giúp bạn dễ cầm hơn. Hơn nữa, nhờ lớp ngoài bằng cao su nên sàn nhà sẽ không bị hỏng.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-07T10:46:06.851Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T10:46:06.851Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689484562e8fca191aac415f"
+  },
+  "name": "Tạ lục giác 15kg",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Đen"
+  ],
+  "sizes": [
+    "Một cỡ duy nhất"
+  ],
+  "images": [
+    "b5.4.jpg"
+  ],
+  "variants": [
+    {
+      "option": "Một cỡ duy nhất - Đen",
+      "size": "Một cỡ duy nhất",
+      "color": "Đen",
+      "price": 1399000,
+      "sale_price": 0,
+      "image": "b5.4.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689484562e8fca191aac4160"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Tạ cầm tay đa dụng dùng trong các bài tập thể hình và các bài tập thường ngày (các bài tập dạng chống đẩy). Hình lục giác mang lại sự ổn định tốt hơn. Cao su bền chắc bảo vệ tạ khỏi các tác động.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-07T10:47:50.911Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T10:47:50.911Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689484d42e8fca191aac42c1"
+  },
+  "name": "Bộ 2 tạ cầm tay 0,5 kg",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Xanh"
+  ],
+  "sizes": [
+    "Một cỡ duy nhất"
+  ],
+  "images": [
+    "b5.5.jpg"
+  ],
+  "variants": [
+    {
+      "option": "Một cỡ duy nhất - Xanh",
+      "size": "Một cỡ duy nhất",
+      "color": "Xanh",
+      "price": 129000,
+      "sale_price": 0,
+      "image": "b5.5.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "689484d42e8fca191aac42c2"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Tay cầm thoải mái. Hình dáng giúp tạ không lăn. Giúp tăng độ khó cho các bài tập squat, lunges, cuốn tạ.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-07T10:49:56.441Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T10:49:56.441Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6894853a2e8fca191aac42f1"
+  },
+  "name": "Bộ 2 tạ cầm tay 1 kg",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Xanh"
+  ],
+  "sizes": [
+    "Một cỡ duy nhất"
+  ],
+  "images": [
+    "b5.6.jpg"
+  ],
+  "variants": [
+    {
+      "option": "Một cỡ duy nhất - Xanh",
+      "size": "Một cỡ duy nhất",
+      "color": "Xanh",
+      "price": 199000,
+      "sale_price": 0,
+      "image": "b5.6.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6894853a2e8fca191aac42f2"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Tay cầm thoải mái. Hình dáng giúp tạ không lăn. Giúp tăng độ khó cho các bài tập squat, lunges, cuốn tạ.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-07T10:51:38.353Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T10:51:38.353Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689485972e8fca191aac431f"
+  },
+  "name": "Bộ 2 tạ cầm tay 1,5 kg",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Tím"
+  ],
+  "sizes": [
+    "Một cỡ duy nhất"
+  ],
+  "images": [
+    "b5.7.jpg"
+  ],
+  "variants": [
+    {
+      "option": "Một cỡ duy nhất - Tím",
+      "size": "Một cỡ duy nhất",
+      "color": "Tím",
+      "price": 299000,
+      "sale_price": 0,
+      "image": "b5.7.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689485972e8fca191aac4320"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Tay cầm thoải mái. Hình dáng giúp tạ không lăn. Giúp tăng độ khó cho các bài tập squat, lunges, cuốn tạ.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-07T10:53:11.485Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T10:53:11.485Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6894860b2e8fca191aac434b"
+  },
+  "name": "Bộ 2 tạ cầm tay 2 kg",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Xanh"
+  ],
+  "sizes": [
+    "Một cỡ duy nhất"
+  ],
+  "images": [
+    "b5.8.jpg"
+  ],
+  "variants": [
+    {
+      "option": "Một cỡ duy nhất - Xanh",
+      "size": "Một cỡ duy nhất",
+      "color": "Xanh",
+      "price": 399000,
+      "sale_price": 0,
+      "image": "b5.8.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6894860b2e8fca191aac434c"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Tay cầm thoải mái. Hình dáng giúp tạ không lăn. Giúp tăng độ khó cho các bài tập squat, lunges, cuốn tạ.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-07T10:55:07.510Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T10:55:07.510Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6894869a2e8fca191aac4372"
+  },
+  "name": "Bộ thanh tạ và tạ tay 50 kg",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Đen"
+  ],
+  "sizes": [
+    "Một cỡ duy nhất"
+  ],
+  "images": [
+    "b5.9.jpg"
+  ],
+  "variants": [
+    {
+      "option": "Một cỡ duy nhất - Đen",
+      "size": "Một cỡ duy nhất",
+      "color": "Đen",
+      "price": 3999000,
+      "sale_price": 0,
+      "image": "b5.9.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "6894869a2e8fca191aac4373"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Bộ tạ hoàn chỉnh với tạ tay, thanh tạ và đĩa tạ để bạn luyện tập cả cơ thể: tập bắp tay, cơ tam đầu, cơ delta, ngực, lưng và thân dưới.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-07T10:57:30.277Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T10:57:30.277Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689487132e8fca191aac440f"
+  },
+  "name": "Bộ tạ cầm tay 10 kg",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Đen"
+  ],
+  "sizes": [
+    "Một cỡ duy nhất"
+  ],
+  "images": [
+    "c.jpg"
+  ],
+  "variants": [
+    {
+      "option": "Một cỡ duy nhất - Đen",
+      "size": "Một cỡ duy nhất",
+      "color": "Đen",
+      "price": 799000,
+      "sale_price": 0,
+      "image": "c.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689487132e8fca191aac4410"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Đây là bộ tạ lý tưởng để làm quen với môn cử tạ, tập cơ bắp tay trước, cơ bắp tay sau, cơ delta và cơ ngực, bao gồm: 4 quả tạ 1 kg - 2 quả tạ 2 kg - thanh tạ 2 kg.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-07T10:59:31.089Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T10:59:31.089Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689487842e8fca191aac4430"
+  },
+  "name": "Bộ tạ tháo lắp 20 kg",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Đen"
+  ],
+  "sizes": [
+    "Một cỡ duy nhất"
+  ],
+  "images": [
+    "c1.jpg"
+  ],
+  "variants": [
+    {
+      "option": "Một cỡ duy nhất - Đen",
+      "size": "Một cỡ duy nhất",
+      "color": "Đen",
+      "price": 1699000,
+      "sale_price": 0,
+      "image": "c1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689487842e8fca191aac4431"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Với thiết kế tay cầm tiện lợi và khóa an toàn, bộ tạ này đảm bảo sự chắc chắn và an toàn khi sử dụng. Chất liệu bền bỉ cùng thiết kế hiện đại giúp nâng cao hiệu quả tập luyện của bạn.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-07T11:01:24.386Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T11:01:24.386Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689487fe2e8fca191aac444f"
+  },
+  "name": "Bộ thanh tạ Pump 20kg",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Đen"
+  ],
+  "sizes": [
+    "Một cỡ duy nhất"
+  ],
+  "images": [
+    "c1.1.jpg"
+  ],
+  "variants": [
+    {
+      "option": "Một cỡ duy nhất - Đen",
+      "size": "Một cỡ duy nhất",
+      "color": "Đen",
+      "price": 3599000,
+      "sale_price": 0,
+      "image": "c1.1.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "689487fe2e8fca191aac4450"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Bắt đầu nhẹ nhàng với thanh tạ 2,5kg! Tập các bài tập cơ ngực, vai, cánh tay, mông... Bộ tạ Pump này thích hợp để luyện tập cơ bắp tại nha!",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-07T11:03:26.457Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T11:03:26.457Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689489232e8fca191aac4562"
+  },
+  "name": "Gói 3 đôi tất chạy bộ Run 100",
+  "idcate": {
+    "$oid": "67b0a4fbb5a39baf9de368ff"
+  },
+  "colors": [
+    "Đen",
+    "Trăng"
+  ],
+  "sizes": [
+    "35/38",
+    "39/42",
+    "43/46"
+  ],
+  "images": [
+    "c1.2.jpg",
+    "c1.3.jpg"
+  ],
+  "variants": [
+    {
+      "option": "35/38 - Đen",
+      "size": "35/38",
+      "color": "Đen",
+      "price": 99000,
+      "sale_price": 0,
+      "image": "c1.2.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "689489232e8fca191aac4563"
+      }
+    },
+    {
+      "option": "35/38 - Trăng",
+      "size": "35/38",
+      "color": "Trăng",
+      "price": 99000,
+      "sale_price": 0,
+      "image": "c1.3.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689489232e8fca191aac4564"
+      }
+    },
+    {
+      "option": "39/42 - Đen",
+      "size": "39/42",
+      "color": "Đen",
+      "price": 99000,
+      "sale_price": 0,
+      "image": "c1.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689489232e8fca191aac4565"
+      }
+    },
+    {
+      "option": "39/42 - Trăng",
+      "size": "39/42",
+      "color": "Trăng",
+      "price": 99000,
+      "sale_price": 0,
+      "image": "c1.3.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689489232e8fca191aac4566"
+      }
+    },
+    {
+      "option": "43/46 - Đen",
+      "size": "43/46",
+      "color": "Đen",
+      "price": 99000,
+      "sale_price": 0,
+      "image": "c1.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "689489232e8fca191aac4567"
+      }
+    },
+    {
+      "option": "43/46 - Trăng",
+      "size": "43/46",
+      "color": "Trăng",
+      "price": 99000,
+      "sale_price": 0,
+      "image": "c1.3.jpg",
+      "quantity": 97,
+      "_id": {
+        "$oid": "689489232e8fca191aac4568"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Bạn cần một đôi tất chạy bộ có giá cả phải chăng? Với thành phần sợi cotton và cấu trúc đan dạng lưới mỏng, tất này rất lý tưởng để chạy bộ với mức giá hợp lý.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-07T11:08:19.786Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T11:08:19.786Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68948a142e8fca191aac4593"
+  },
+  "name": "Set 2 đôi tất bóng rổ người lớn cổ cao - SO900 NBA",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Trắng",
+    "Đen"
+  ],
+  "sizes": [
+    "39/41",
+    "42/44",
+    "45/47"
+  ],
+  "images": [
+    "c1.4.jpg",
+    "c1.5.jpg"
+  ],
+  "variants": [
+    {
+      "option": "39/41 - Trắng",
+      "size": "39/41",
+      "color": "Trắng",
+      "price": 399000,
+      "sale_price": 0,
+      "image": "c1.4.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "68948a142e8fca191aac4594"
+      }
+    },
+    {
+      "option": "39/41 - Đen",
+      "size": "39/41",
+      "color": "Đen",
+      "price": 399000,
+      "sale_price": 0,
+      "image": "c1.5.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a142e8fca191aac4595"
+      }
+    },
+    {
+      "option": "42/44 - Trắng",
+      "size": "42/44",
+      "color": "Trắng",
+      "price": 399000,
+      "sale_price": 0,
+      "image": "c1.4.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "68948a142e8fca191aac4596"
+      }
+    },
+    {
+      "option": "42/44 - Đen",
+      "size": "42/44",
+      "color": "Đen",
+      "price": 399000,
+      "sale_price": 0,
+      "image": "c1.5.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "68948a142e8fca191aac4597"
+      }
+    },
+    {
+      "option": "45/47 - Trắng",
+      "size": "45/47",
+      "color": "Trắng",
+      "price": 399000,
+      "sale_price": 0,
+      "image": "c1.4.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a142e8fca191aac4598"
+      }
+    },
+    {
+      "option": "45/47 - Đen",
+      "size": "45/47",
+      "color": "Đen",
+      "price": 399000,
+      "sale_price": 0,
+      "image": "c1.5.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948a142e8fca191aac4599"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Tất bóng rổ Decathlon-NBA siêu mềm mại và thoải mái, thoáng khí và hạn chế xê dịch.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-07T11:12:20.498Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T11:12:20.498Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68948ae52e8fca191aac48c7"
+  },
+  "name": "Tất đá bóng người lớn cổ cao - Viralto II",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Đen"
+  ],
+  "sizes": [
+    "39/40",
+    "41/42",
+    "43/44",
+    "45/46"
+  ],
+  "images": [
+    "c1.6.jpg"
+  ],
+  "variants": [
+    {
+      "option": "39/40 - Đen",
+      "size": "39/40",
+      "color": "Đen",
+      "price": 219000,
+      "sale_price": 0,
+      "image": "c1.6.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948ae52e8fca191aac48c8"
+      }
+    },
+    {
+      "option": "41/42 - Đen",
+      "size": "41/42",
+      "color": "Đen",
+      "price": 219000,
+      "sale_price": 0,
+      "image": "c1.6.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948ae52e8fca191aac48c9"
+      }
+    },
+    {
+      "option": "43/44 - Đen",
+      "size": "43/44",
+      "color": "Đen",
+      "price": 219000,
+      "sale_price": 0,
+      "image": "c1.6.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948ae52e8fca191aac48ca"
+      }
+    },
+    {
+      "option": "45/46 - Đen",
+      "size": "45/46",
+      "color": "Đen",
+      "price": 219000,
+      "sale_price": 0,
+      "image": "c1.6.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948ae52e8fca191aac48cb"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Tất bám chắc, kết hợp các tính năng kỹ thuật của tất thể thao cổ vừa với miếng đệm silicone ở tất cổ cao, giúp giữ cố định cho nẹp ống đồng.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-07T11:15:49.666Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T11:15:49.666Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68948bba2e8fca191aac49ab"
+  },
+  "name": "Tất đạp xe đường trường 900",
+  "idcate": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "sizes": [
+    "35/38",
+    "39/42",
+    "43/46"
+  ],
+  "images": [
+    "c1.7.jpg",
+    "c1.8.jpg"
+  ],
+  "variants": [
+    {
+      "option": "35/38 - Đen",
+      "size": "35/38",
+      "color": "Đen",
+      "price": 275000,
+      "sale_price": 0,
+      "image": "c1.7.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948bba2e8fca191aac49ac"
+      }
+    },
+    {
+      "option": "35/38 - Trắng",
+      "size": "35/38",
+      "color": "Trắng",
+      "price": 275000,
+      "sale_price": 0,
+      "image": "c1.8.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948bba2e8fca191aac49ad"
+      }
+    },
+    {
+      "option": "39/42 - Đen",
+      "size": "39/42",
+      "color": "Đen",
+      "price": 275000,
+      "sale_price": 0,
+      "image": "c1.7.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948bba2e8fca191aac49ae"
+      }
+    },
+    {
+      "option": "39/42 - Trắng",
+      "size": "39/42",
+      "color": "Trắng",
+      "price": 275000,
+      "sale_price": 0,
+      "image": "c1.8.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948bba2e8fca191aac49af"
+      }
+    },
+    {
+      "option": "43/46 - Đen",
+      "size": "43/46",
+      "color": "Đen",
+      "price": 275000,
+      "sale_price": 0,
+      "image": "c1.7.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948bba2e8fca191aac49b0"
+      }
+    },
+    {
+      "option": "43/46 - Trắng",
+      "size": "43/46",
+      "color": "Trắng",
+      "price": 275000,
+      "sale_price": 0,
+      "image": "c1.7.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948bba2e8fca191aac49b1"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Tất tốt nhất trong dòng sản phẩm, thoáng khí, nhẹ, siêu mỏng. Thiết kế chân trái và chân phải riêng biệt giúp tăng độ thoải mái. Sản phẩm không áp dụng chính sách đổi trả vì lý do an toàn và vệ sinh.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-07T11:19:22.931Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T11:19:22.931Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68948cf62e8fca191aac49e1"
+  },
+  "name": "Áo thun chạy bộ nữ thoáng khí - Run 500",
+  "idcate": {
+    "$oid": "67b0a54db5a39baf9de36902"
+  },
+  "colors": [
+    "Xanh",
+    "Vàng",
+    "Hồng"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "images": [
+    "c2.1.jpg",
+    "c1.9.jpg",
+    "c2.jpg"
+  ],
+  "variants": [
+    {
+      "option": "S - Xanh",
+      "size": "S",
+      "color": "Xanh",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "c2.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948cf62e8fca191aac49e2"
+      }
+    },
+    {
+      "option": "S - Vàng",
+      "size": "S",
+      "color": "Vàng",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "c1.9.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948cf62e8fca191aac49e3"
+      }
+    },
+    {
+      "option": "S - Hồng",
+      "size": "S",
+      "color": "Hồng",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "c2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948cf62e8fca191aac49e4"
+      }
+    },
+    {
+      "option": "M - Xanh",
+      "size": "M",
+      "color": "Xanh",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "c2.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948cf62e8fca191aac49e5"
+      }
+    },
+    {
+      "option": "M - Vàng",
+      "size": "M",
+      "color": "Vàng",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "c1.9.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948cf62e8fca191aac49e6"
+      }
+    },
+    {
+      "option": "M - Hồng",
+      "size": "M",
+      "color": "Hồng",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "c2.jpg",
+      "quantity": 100,
+      "_id": {
+        "$oid": "68948cf62e8fca191aac49e7"
+      }
+    },
+    {
+      "option": "L - Xanh",
+      "size": "L",
+      "color": "Xanh",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "c2.1.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948cf62e8fca191aac49e8"
+      }
+    },
+    {
+      "option": "L - Vàng",
+      "size": "L",
+      "color": "Vàng",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "c1.9.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948cf62e8fca191aac49e9"
+      }
+    },
+    {
+      "option": "L - Hồng",
+      "size": "L",
+      "color": "Hồng",
+      "price": 239000,
+      "sale_price": 0,
+      "image": "c2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948cf62e8fca191aac49ea"
+      }
+    }
+  ],
+  "hot": 1,
+  "view": 0,
+  "status": "Active",
+  "description": "Kiểu dáng rộng rãi, lưng áo hơi dài, áo thun này sẽ mang cho bạn cảm giác thoải mái khi chạy. Lưng áo được thiết kế với các lỗ chấm nhỏ, siêu thoáng khí! Là sự lựa chọn hoàn hảo cho các buổi chạy.",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-07T11:24:38.251Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T11:24:38.251Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68948e382e8fca191aac4d00"
+  },
+  "name": "Áo thun chạy bộ chống nắng",
+  "idcate": {
+    "$oid": "67b0a54db5a39baf9de36902"
+  },
+  "colors": [
+    "Đen",
+    "Trắng",
+    "Vàng"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "images": [
+    "c2.2.jpg",
+    "c2.3.jpg",
+    "c2.4.jpg"
+  ],
+  "variants": [
+    {
+      "option": "S - Đen",
+      "size": "S",
+      "color": "Đen",
+      "price": 199000,
+      "sale_price": 0,
+      "image": "c2.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948e382e8fca191aac4d01"
+      }
+    },
+    {
+      "option": "S - Trắng",
+      "size": "S",
+      "color": "Trắng",
+      "price": 199000,
+      "sale_price": 0,
+      "image": "c2.3.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948e382e8fca191aac4d02"
+      }
+    },
+    {
+      "option": "S - Vàng",
+      "size": "S",
+      "color": "Vàng",
+      "price": 199000,
+      "sale_price": 0,
+      "image": "c2.4.jpg",
+      "quantity": 98,
+      "_id": {
+        "$oid": "68948e382e8fca191aac4d03"
+      }
+    },
+    {
+      "option": "M - Đen",
+      "size": "M",
+      "color": "Đen",
+      "price": 199000,
+      "sale_price": 0,
+      "image": "c2.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948e382e8fca191aac4d04"
+      }
+    },
+    {
+      "option": "M - Trắng",
+      "size": "M",
+      "color": "Trắng",
+      "price": 199000,
+      "sale_price": 0,
+      "image": "c2.3.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948e382e8fca191aac4d05"
+      }
+    },
+    {
+      "option": "M - Vàng",
+      "size": "M",
+      "color": "Vàng",
+      "price": 199000,
+      "sale_price": 0,
+      "image": "c2.4.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948e382e8fca191aac4d06"
+      }
+    },
+    {
+      "option": "L - Đen",
+      "size": "L",
+      "color": "Đen",
+      "price": 199000,
+      "sale_price": 0,
+      "image": "c2.2.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948e382e8fca191aac4d07"
+      }
+    },
+    {
+      "option": "L - Trắng",
+      "size": "L",
+      "color": "Trắng",
+      "price": 199000,
+      "sale_price": 0,
+      "image": "c2.3.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948e382e8fca191aac4d08"
+      }
+    },
+    {
+      "option": "L - Vàng",
+      "size": "L",
+      "color": "Vàng",
+      "price": 199000,
+      "sale_price": 0,
+      "image": "c2.4.jpg",
+      "quantity": 99,
+      "_id": {
+        "$oid": "68948e382e8fca191aac4d09"
+      }
+    }
+  ],
+  "hot": 0,
+  "view": 0,
+  "status": "Active",
+  "description": "Chất vải mềm mại, chống tia cực tím, áo thun chạy bộ tay dài bảo vệ bạn khỏi ánh nắng mặt trời!",
+  "flag": true,
+  "createdAt": {
+    "$date": "2025-08-07T11:30:00.950Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T11:30:00.950Z"
+  },
+  "__v": 0
+}]

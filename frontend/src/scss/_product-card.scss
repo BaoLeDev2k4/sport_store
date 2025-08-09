@@ -1,0 +1,215 @@
+// Variables
+$card-bg: #FFFFFF;
+$card-shadow: rgba(0, 0, 0, 0.1);
+$card-border: #E0E0E0;
+$product-name-color: #333333;
+$highlight-color: #ff4d4f; // Màu đỏ cho trang chi tiết
+$card-price-color: #2c5aa0; // ✅ Màu xanh đậm cho card sản phẩm (UX-friendly)
+$current-price-color: #3E8DFF;
+$old-price-color: #999999;
+$discount-badge-bg: #FF4500;
+$discount-badge-text: #FFFFFF;
+$star-filled-color: #FFD700;
+$star-empty-color: #CCCCCC;
+$add-to-cart-bg: #3E8DFF;
+$add-to-cart-text: #FFFFFF;
+$add-to-cart-hover: darken($add-to-cart-bg, 10%);
+
+.product-card {
+  background-color: $card-bg;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px $card-shadow;
+  border: 1px solid $card-border;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .product-link-overlay {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  }
+
+  .product-image-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .discount-badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: $discount-badge-bg;
+      color: $discount-badge-text;
+      padding: 0.3rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      z-index: 10;
+    }
+  }
+
+  .product-info {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    .product-name {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: $product-name-color;
+      margin-bottom: 0.2rem;
+      flex-grow: 1;
+      line-height: 1.4;
+      min-height: 2.8em;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      line-clamp: 2;
+      -webkit-box-orient: vertical;
+      text-overflow: ellipsis;
+    }
+
+    .product-rating {
+      color: $star-filled-color;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+
+      .star-empty {
+        color: $star-empty-color;
+      }
+    }
+
+    .product-prices {
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+      margin-top: 0.1rem;
+
+      .old-price {
+        color: $old-price-color;
+        text-decoration: line-through;
+        font-size: 0.9rem;
+        font-weight: 400;
+      }
+
+      .current-price {
+        color: $card-price-color; // ✅ Sử dụng màu xanh đậm cho card
+        font-size: 1.3rem;
+        font-weight: 700;
+      }
+    }
+
+    .add-to-cart-button {
+      background-color: $add-to-cart-bg;
+      color: $add-to-cart-text;
+      padding: 0.75rem 1rem;
+      border: none;
+      border-radius: 8px;
+      margin-top: 1rem;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+
+      &:hover {
+        background-color: $add-to-cart-hover;
+        transform: translateY(-2px);
+      }
+    }
+
+    .compact-actions {
+      display: none;
+    }
+  }
+
+  &.compact-mode {
+    .product-info {
+      padding: 0.8rem;
+
+      .product-name {
+        font-size: 0.95rem;
+        font-weight: 700;
+        color: $product-name-color;
+        margin-bottom: 0.15rem;
+        line-height: 1.3;
+        min-height: 2.6em;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+      }
+
+      .product-rating {
+        font-size: 0.8rem;
+        margin-bottom: 0.3rem;
+      }
+
+      .product-prices {
+        margin-top: 0.3rem;
+
+        .old-price {
+          font-size: 0.8rem;
+        }
+
+        .current-price {
+          font-size: 1.1rem;
+        }
+      }
+
+      .add-to-cart-button {
+        display: none;
+      }
+
+      .compact-actions {
+        display: flex;
+        justify-content: center;
+        margin-top: 0.5rem;
+
+        .view-details-button,
+        .add-to-cart-icon-button {
+          background: none;
+          border: none;
+          color: $current-price-color;
+          cursor: pointer;
+          padding: 0.3rem;
+          transition: transform 0.2s ease;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+
+          svg {
+            width: 1rem;
+            height: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

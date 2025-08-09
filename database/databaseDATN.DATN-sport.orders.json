@@ -1,0 +1,218 @@
+[{
+  "_id": {
+    "$oid": "68666363c3aa69364907236b"
+  },
+  "id_user": {
+    "$oid": "685022514cdeb0779e0caf0d"
+  },
+  "discount_amount": 30000,
+  "total_amount": 595000,
+  "final_total": 565000,
+  "total_payment": 565000,
+  "name": "Nguyễn Văn A",
+  "phone": "0931713315",
+  "address": "TP. Hồ Chí Minh",
+  "note": "",
+  "payment_method": "COD",
+  "payment_status": "Pending",
+  "order_status": "Completed",
+  "createdAt": {
+    "$date": "2025-06-03T11:02:59.815Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T08:44:12.110Z"
+  },
+  "__v": 0,
+  "id_voucher": {
+    "$oid": "67cb02705b77a1eaeb2dd211"
+  }
+},
+{
+  "_id": {
+    "$oid": "68666618c3aa693649072c42"
+  },
+  "id_user": {
+    "$oid": "6850252d4cdeb0779e0cb0b9"
+  },
+  "discount_amount": 0,
+  "total_amount": 139000,
+  "final_total": 139000,
+  "total_payment": 139000,
+  "name": "Nguyễn Văn B",
+  "phone": "0972443581",
+  "address": "TP. Đà Nẵng",
+  "note": "",
+  "payment_method": "COD",
+  "payment_status": "Pending",
+  "order_status": "Completed",
+  "createdAt": {
+    "$date": "2025-07-16T11:14:32.445Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T08:44:10.871Z"
+  },
+  "__v": 0,
+  "id_voucher": null
+},
+{
+  "_id": {
+    "$oid": "68666f7fc3aa6936490747b1"
+  },
+  "id_user": {
+    "$oid": "6850252d4cdeb0779e0cb0b9"
+  },
+  "discount_amount": 0,
+  "total_amount": 139000,
+  "final_total": 139000,
+  "total_payment": 139000,
+  "name": "Nguyễn Văn B",
+  "phone": "0972443581",
+  "address": "TP. Đà Nẵng",
+  "note": "",
+  "payment_method": "MOMO",
+  "payment_status": "Completed",
+  "order_status": "Completed",
+  "createdAt": {
+    "$date": "2025-07-03T11:54:39.501Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T08:44:09.383Z"
+  },
+  "__v": 0,
+  "id_voucher": null
+},
+{
+  "_id": {
+    "$oid": "68832dbde4c2cfcbc64478ef"
+  },
+  "id_user": {
+    "$oid": "685ff0185301ac23fc6a2668"
+  },
+  "id_voucher": null,
+  "discount_amount": 50000,
+  "total_amount": 571333,
+  "final_total": 521333,
+  "total_payment": 521333,
+  "name": "Test123",
+  "phone": "0385740344",
+  "address": "Test của admin",
+  "note": "test merge code ",
+  "payment_method": "COD",
+  "payment_status": "Pending",
+  "order_status": "Completed",
+  "createdAt": {
+    "$date": "2025-07-25T07:09:49.881Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T07:34:03.793Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68834b3c69851f8989b027e6"
+  },
+  "id_user": {
+    "$oid": "685ff0185301ac23fc6a2668"
+  },
+  "id_voucher": null,
+  "discount_amount": 50000,
+  "total_amount": 571333,
+  "final_total": 521333,
+  "total_payment": 521333,
+  "name": "Test123",
+  "phone": "0385740344",
+  "address": "Test của admin",
+  "note": "test merge code ",
+  "payment_method": "COD",
+  "payment_status": "Pending",
+  "order_status": "Completed",
+  "createdAt": {
+    "$date": "2025-07-25T07:09:49.881Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-25T07:34:03.793Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6886f1f16c3214d6613b8370"
+  },
+  "id_user": {
+    "$oid": "6886ec936c3214d6613b78c2"
+  },
+  "id_voucher": null,
+  "discount_amount": 50000,
+  "total_amount": 298000,
+  "final_total": 248000,
+  "total_payment": 248000,
+  "name": "Testclient",
+  "phone": "0323456789",
+  "address": "Address Test Client ",
+  "note": "",
+  "payment_method": "COD",
+  "payment_status": "Pending",
+  "order_status": "Processing",
+  "createdAt": {
+    "$date": "2025-07-28T03:43:45.075Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-28T03:43:45.075Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6887759ba037f5d6bfe59ac5"
+  },
+  "id_user": {
+    "$oid": "6886ec936c3214d6613b78c2"
+  },
+  "id_voucher": null,
+  "discount_amount": 0,
+  "total_amount": 99000,
+  "final_total": 99000,
+  "total_payment": 99000,
+  "name": "Testclient",
+  "phone": "0323456789",
+  "address": "Address Test Client ",
+  "note": "",
+  "payment_method": "COD",
+  "payment_status": "Pending",
+  "order_status": "Processing",
+  "createdAt": {
+    "$date": "2024-05-28T13:05:31.457Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-28T13:05:31.457Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68877a60a037f5d6bfe5a4d5"
+  },
+  "id_user": {
+    "$oid": "6886ec936c3214d6613b78c2"
+  },
+  "id_voucher": null,
+  "discount_amount": 0,
+  "total_amount": 796000,
+  "final_total": 796000,
+  "total_payment": 796000,
+  "name": "Testclient",
+  "phone": "0323456789",
+  "address": "Address Test Client ",
+  "note": "",
+  "payment_method": "COD",
+  "payment_status": "Pending",
+  "order_status": "Processing",
+  "createdAt": {
+    "$date": "2025-07-28T13:25:52.298Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-28T13:25:52.298Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,108 @@
+.auth-container {
+  max-width: 420px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+
+  h2 {
+    margin-bottom: 30px;
+    color: #3E8DFF;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center; // 👉 chính là dòng này cho chữ căn giữa
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: border-color 0.3s;
+
+      &:focus {
+        border-color: #3E8DFF;
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(62, 141, 255, 0.15);
+      }
+    }
+  }
+
+  button {
+    background: #3E8DFF;
+    color: white;
+    padding: 14px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background: #2563EB;
+    }
+  }
+
+  // Container cho links khi ở mode đăng nhập (quên mật khẩu + đăng ký)
+  .auth-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+
+    .forgot-password-link {
+      color: #3E8DFF;
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: #2563EB;
+        text-decoration: underline;
+      }
+    }
+
+    .register-link {
+      color: #3E8DFF;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #2563EB;
+      }
+    }
+  }
+
+  // Style cho link đăng nhập khi ở mode đăng ký
+  .login-link {
+    margin-top: 20px;
+    color: #3E8DFF;
+    cursor: pointer;
+    font-weight: 500;
+    transition: color 0.3s;
+    text-align: center;
+
+    &:hover {
+      color: #2563EB;
+    }
+  }
+}

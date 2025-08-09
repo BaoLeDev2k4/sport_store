@@ -1,0 +1,169 @@
+/* _navbar.scss */
+
+// Variables
+$navbar-bg-dark: #2c3e50; // Màu xanh than đậm hơn, hiện đại (Midnight Blue)
+$navbar-bg-light: #34495e; // Màu xanh than nhạt hơn cho hover
+$text-color: #ecf0f1; // Màu chữ trắng ngà, dịu mắt
+$accent-color: #3498db; // Màu xanh dương tươi sáng, thân thiện (Peter River)
+$active-color: #ffffff; // Màu trắng tinh cho item active
+$shadow-color: rgba(0, 0, 0, 0.2);
+$border-color: rgba(255, 255, 255, 0.1);
+
+.navbar {
+  background-color: $navbar-bg-dark;
+  color: $text-color;
+  padding: 1rem 0; /* Padding ngang 0, để container kiểm soát */
+  box-shadow: 0 4px 8px $shadow-color;
+  position: relative; // Quan trọng cho menu mobile
+  z-index: 999; // Đảm bảo navbar luôn trên cùng
+
+  // Font cho toàn bộ navbar, bạn có thể import từ Google Fonts
+  font-family: 'Roboto', sans-serif; // Ví dụ: 'Roboto', 'Open Sans', 'Lato'
+
+  .navbar-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem; // Padding ngang cho nội dung bên trong
+
+    @media (max-width: 768px) {
+      flex-wrap: wrap; // Cho phép các phần tử xuống dòng
+      justify-content: flex-end; // Đẩy hamburger sang phải trên mobile
+    }
+  }
+
+  .hamburger-menu {
+    // Luôn hiển thị trên mobile, ẩn trên desktop
+    @media (min-width: 769px) { // Dùng 769px để tránh xung đột với 768px của desktop
+      display: none;
+    }
+
+    .hamburger-button {
+      padding: 0.6rem; // Tăng padding
+      border-radius: 8px; // Bo góc nhẹ nhàng
+      background-color: transparent;
+      border: 1px solid $border-color; // Viền mờ
+      cursor: pointer;
+      color: $text-color;
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-color: $accent-color; // Viền màu xanh khi hover
+      }
+
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba($accent-color, 0.5); // Hiệu ứng focus rõ ràng
+      }
+
+      svg {
+        width: 1.75rem; // Tăng kích thước icon
+        height: 1.75rem;
+      }
+    }
+  }
+
+  .nav-links-wrapper {
+    // Mặc định ẩn và có chiều cao 0 trên mobile
+    display: none; // Ẩn hoàn toàn trên mobile theo mặc định
+    max-height: 0;
+    overflow: hidden; // Ẩn nội dung tràn
+    transition: max-height 0.4s ease-in-out, opacity 0.4s ease-in-out; // Animation mượt mà
+    opacity: 0;
+
+    &.open { // Khi menu mở
+      display: block; // Hiển thị block để chiếm không gian
+      max-height: 500px; // Đặt một giá trị đủ lớn để hiển thị toàn bộ menu
+      opacity: 1;
+    }
+
+    @media (min-width: 769px) {
+      display: flex; // Luôn hiển thị trên desktop
+      max-height: none; // Bỏ giới hạn chiều cao
+      opacity: 1;
+      width: auto; // Desktop default
+      margin-top: 0; // Desktop default
+    }
+
+    width: 100%; // Chiếm toàn bộ chiều rộng trên mobile
+    margin-top: 1rem; // Khoảng cách với hamburger trên mobile
+  }
+
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; // Flexbox cho cả desktop và mobile (trong trạng thái open)
+    flex-direction: column; // Các mục xếp chồng trên mobile
+    align-items: flex-start; // Căn trái trên mobile
+    row-gap: 0.5rem; // Khoảng cách giữa các mục trên mobile
+
+    @media (min-width: 769px) {
+      flex-direction: row; // Các mục xếp hàng ngang trên desktop
+      justify-content: center; // Căn giữa các mục trên desktop
+      column-gap: 2.5rem; // Khoảng cách lớn hơn giữa các mục trên desktop
+      align-items: center;
+      row-gap: 0; // Reset row-gap trên desktop
+    }
+
+    li {
+      width: 100%; // Chiếm toàn bộ chiều rộng trên mobile
+      @media (min-width: 769px) {
+        width: auto; // Trở lại kích thước tự nhiên trên desktop
+      }
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      column-gap: 0.75rem; // Khoảng cách giữa icon và chữ
+      padding: 0.7rem 1.2rem; // Tăng padding để tạo khoảng trống
+      border-radius: 8px; // Bo góc hiện đại
+      text-decoration: none;
+      color: $text-color;
+      font-weight: 500; // Độ đậm vừa phải
+      font-size: 1rem; // Kích thước font cơ bản
+      transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+      position: relative; // Cho hiệu ứng hover
+
+      &:hover {
+        background-color: $navbar-bg-light; // Nền nhạt hơn khi hover
+        color: $accent-color; // Chữ màu xanh khi hover
+        transform: translateY(-2px); // Hiệu ứng nhấc nhẹ lên
+      }
+
+      // Hiệu ứng gạch chân hoặc đường viền dưới khi hover
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0; // Gạch chân dưới link
+        left: 50%;
+        width: 0;
+        height: 3px; // Độ dày của gạch chân
+        background-color: $accent-color; // Màu gạch chân
+        transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+        transform: translateX(-50%);
+        border-radius: 2px;
+      }
+
+      &:hover::after {
+        width: calc(100% - 2.4rem); // Kéo dài gạch chân bằng chiều rộng padding của link
+        left: 1.2rem; // Căn chỉnh vị trí để gạch chân nằm dưới phần chữ
+        transform: translateX(0); // Bỏ transform X để căn chỉnh theo left
+      }
+
+      svg {
+        width: 1.25rem; // Kích thước icon lớn hơn một chút
+        height: 1.25rem;
+        // Có thể thêm filter: drop-shadow(0 0 2px rgba(255,255,255,0.3));
+      }
+
+      span {
+        white-space: nowrap;
+      }
+    }
+  }
+}

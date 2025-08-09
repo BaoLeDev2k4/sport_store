@@ -1,0 +1,207 @@
+$primary-blue: #4A90E2;
+$table-header-blue: #2E6FD8;
+$danger-red: #ff4d4f;
+$text-main: #333333;
+$text-light: #666666;
+$white: #fff;
+$card-radius: 14px;
+$shadow-light: rgba(0, 0, 0, 0.06);
+$font-main: 'Inter', 'Open Sans', sans-serif;
+$success-green: #30b752;
+$success-green-light: #48c26a;
+
+.cart-container {
+  max-width: 1120px;
+  margin: 40px auto;
+  padding: 35px;
+  background: $white;
+  border-radius: $card-radius;
+  box-shadow: 0 6px 18px $shadow-light;
+  font-family: $font-main;
+  color: $text-main;
+  transition: all 0.3s ease;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: $primary-blue;
+    letter-spacing: 0.4px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    table-layout: fixed;
+
+    thead {
+      background-color: lighten($table-header-blue, 45%);
+      color: $table-header-blue;
+      font-weight: 600;
+      font-size: 1.1rem;
+
+      th {
+        padding: 16px 12px;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+
+        &:first-child { width: 45%; text-align: left; }
+        &:nth-child(2) { width: 15%; }
+        &:nth-child(3) { width: 15%; }
+        &:nth-child(4) { width: 15%; }
+        &:last-child { width: 10%; }
+      }
+    }
+
+    tbody {
+      tr {
+        &:hover {
+          background-color: #fafafa;
+        }
+      }
+
+      td {
+        padding: 20px 12px;
+        border-bottom: 1px solid #eee;
+        vertical-align: middle;
+        text-align: center;
+
+        &:first-child {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          gap: 15px;
+        }
+
+        img {
+          width: 80px;
+          height: 80px;
+          border-radius: 8px;
+          object-fit: cover;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        }
+
+        span {
+          font-size: 1.05rem;
+          font-weight: 600;
+          text-align: left;
+        }
+      }
+
+      input[type="number"] {
+        width: 70px;
+        padding: 6px;
+        border-radius: 6px;
+        border: 1px solid #ddd;
+        text-align: center;
+        font-weight: 600;
+        font-size: 1rem;
+      }
+
+      button {
+        background: $danger-red;
+        color: $white;
+        border: none;
+        padding: 10px 18px;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all 0.25s ease;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+        letter-spacing: 0.3px;
+
+        &:hover {
+          background: darken($danger-red, 8%);
+          transform: translateY(-2px);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        &:active {
+          transform: translateY(0);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+  }
+
+  .total-section {
+    margin-top: 10px;
+    text-align: right;
+
+    h3 {
+      font-size: 1.7rem;
+      font-weight: 700;
+      color: lighten($primary-blue, 5%);
+      display: inline-block;
+      margin: 0;
+
+      span {
+        color: $text-main;
+        font-weight: 500;
+        margin-left: 8px;
+      }
+    }
+  }
+
+  .checkout-button-wrapper {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+
+    .checkout-button {
+      background: $success-green-light;
+      color: $white;
+      border: 2px solid $success-green;
+      padding: 14px 40px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      border-radius: 12px;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+      transition: all 0.25s ease;
+      letter-spacing: 0.4px;
+
+      &:hover {
+        background: darken($success-green-light, 5%);
+        transform: translateY(-2px);
+      }
+
+      &:active {
+        transform: translateY(0);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 25px;
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+
+    table {
+      font-size: 0.95rem;
+
+      td:first-child {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .total-section h3 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+small {
+  display: block;
+  font-size: 0.9rem;
+  color: $text-light;
+}

@@ -1,0 +1,281 @@
+/* _footer.scss */
+
+// Variables
+$footer-bg: #212121; // Màu nền footer đen đậm, hiện đại (gần với dark-gray)
+$heading-color: #ffffff; // Màu tiêu đề trắng
+
+// Thay đổi màu chữ footer thành xám nhạt hơn, thân thiện hơn
+$footer-text-color: #cccccc; // Màu chữ xám sáng hơn, thân thiện hơn trên nền tối
+
+// Thay đổi màu link mặc định và màu hover
+$link-color: #b0c4de; // Xám xanh nhạt (light slate blue) - thân thiện hơn
+$link-hover-color: #3E8DFF; // Màu xanh tươi (từ Header/Navbar)
+
+// Màu icon mạng xã hội và hover
+$social-icon-color: #ffffff; // Màu icon mạng xã hội mặc định
+$social-icon-hover-color: #FFD700; // Màu vàng gold (từ Header/Banner)
+
+// Thay đổi màu nút đăng ký nhận tin
+$newsletter-button-bg: #3E8DFF; // Sử dụng màu xanh tươi từ Header/Navbar
+$newsletter-button-text-color: #FFFFFF; // Màu chữ trắng cho nút
+$newsletter-button-hover-bg: darken($newsletter-button-bg, 10%); // Tối màu khi hover
+$cta-shadow: rgba(0, 0, 0, 0.4); // Shadow vẫn giữ nguyên
+
+$border-color: rgba(255, 255, 255, 0.1); // Viền mờ
+
+.footer {
+  background-color: $footer-bg;
+  color: $footer-text-color; // Áp dụng màu chữ mới
+  padding: 3rem 0 1.5rem;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.15); // Shadow inset tinh tế hơn
+  font-family: 'Roboto', sans-serif; // Đồng bộ font với các phần khác
+
+  .footer-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1.5rem; // Padding ngang
+
+    display: grid;
+    grid-template-columns: 1fr; // Mặc định 1 cột trên mobile
+    gap: 2.5rem; // Tăng khoảng cách giữa các cột
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(3, 1fr); // Vẫn 3 cột cơ bản trên tablet (About, Quick Links, Contact)
+      gap: 3rem;
+    }
+
+    @media (min-width: 1024px) {
+      // Bố cục cho desktop: About (2 phần), Quick Links (1.2 phần), Contact (2 phần)
+      // Giữ nguyên 3 cột như ban đầu của bạn, không dùng footer-center-group để căn giữa chung 2 cột.
+      // Thay vào đó, mỗi section sẽ tự căn chỉnh nội dung bên trong.
+      grid-template-columns: 2fr 1.2fr 2fr;
+    }
+  }
+
+  // Loại bỏ hoàn toàn khối .footer-center-group vì giờ các section sẽ nằm riêng lẻ trong grid
+  // .footer-center-group { ... }
+
+  .footer-section {
+    h4 {
+      color: $heading-color;
+      font-size: 1.2rem; // Kích thước lớn hơn
+      font-weight: 700; // Đậm hơn
+      margin-bottom: 1.2rem; // Khoảng cách dưới tiêu đề
+      position: relative; // Cho hiệu ứng gạch dưới
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      text-align: left; // Đảm bảo tiêu đề luôn căn trái
+
+      &::after { // Hiệu ứng gạch dưới cho tiêu đề
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -0.5rem;
+        width: 40px; // Chiều dài gạch dưới
+        height: 3px;
+        background-color: $link-hover-color; // Màu xanh tươi
+        border-radius: 2px;
+      }
+    }
+
+    p {
+      font-size: 0.95rem; // Kích thước lớn hơn một chút
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        margin-bottom: 0.7rem; // Khoảng cách giữa các link
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      a {
+        color: $link-color; // Áp dụng màu link mới
+        text-decoration: none;
+        font-size: 0.9rem;
+        transition: color 0.3s ease, transform 0.2s ease;
+        display: inline-block; // Quan trọng cho transform
+
+        &:hover {
+          color: $link-hover-color; // Màu xanh tươi khi hover
+          transform: translateX(5px); // Trượt nhẹ sang phải
+        }
+      }
+    }
+  }
+
+  .social-links {
+    display: flex;
+    margin-top: 1.5rem;
+    
+    // Loại bỏ căn giữa social links trên mobile, để nó tự căn trái theo section
+    // @media (max-width: 767px) {
+    //     justify-content: center;
+    // }
+
+    .social-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px; // Kích thước icon
+      height: 40px;
+      background-color: rgba(255, 255, 255, 0.1); // Nền trong suốt
+      border-radius: 50%; // Tròn hoàn hảo
+      color: $social-icon-color; // Màu icon
+      margin-right: 1rem; // Khoảng cách giữa các icon
+      transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); // Shadow cho icon
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover {
+        background-color: $link-hover-color; // Màu xanh tươi khi hover
+        color: $social-icon-hover-color; // Màu vàng gold khi hover
+        transform: translateY(-3px) scale(1.05); // Nhấc lên và phóng to
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.4);
+      }
+
+      svg {
+        width: 22px; // Kích thước icon
+        height: 22px;
+      }
+    }
+  }
+
+  .contact-info {
+    // Loại bỏ các quy tắc căn giữa trên mobile cho toàn bộ contact-info và các item con
+    // để nó luôn căn trái như ban đầu.
+    .contact-item {
+      display: flex;
+      align-items: flex-start; // Căn chỉnh icon và text
+      column-gap: 0.8rem;
+      margin-bottom: 0.8rem;
+      font-size: 0.95rem;
+      line-height: 1.5;
+
+      .contact-icon {
+        color: $link-hover-color; // Màu xanh tươi cho icon liên hệ
+        flex-shrink: 0; // Ngăn icon bị co lại
+        margin-top: 2px; // Căn chỉnh icon với dòng text đầu tiên
+      }
+    }
+
+    .newsletter-signup {
+      margin-top: 2rem;
+      h5 {
+        color: $heading-color;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+      }
+
+      .newsletter-form {
+        display: flex;
+        flex-wrap: wrap; // Cho phép xuống dòng trên mobile
+        gap: 0.5rem;
+        // Loại bỏ justify-content: center; ở đây
+        // justify-content: center; 
+
+        input[type="email"] {
+          flex-grow: 1; // Cho phép input giãn nở
+          padding: 0.75rem 1rem;
+          border-radius: 8px;
+          border: 1px solid $border-color;
+          background-color: rgba(255, 255, 255, 0.08); // Nền trong suốt
+          color: $footer-text-color;
+          font-size: 0.9rem;
+          transition: border-color 0.3s ease, background-color 0.3s ease;
+
+          &::placeholder {
+            color: rgba(255, 255, 255, 0.4);
+          }
+          &:focus {
+            outline: none;
+            border-color: $link-hover-color;
+            background-color: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 0 0 2px rgba($link-hover-color, 0.3);
+          }
+
+          @media (max-width: 480px) {
+            width: 100%; // Chiếm toàn bộ chiều rộng trên mobile rất nhỏ
+          }
+        }
+
+        button[type="submit"] {
+          background-color: $newsletter-button-bg; // Áp dụng màu nền nút mới
+          color: $newsletter-button-text-color; // Áp dụng màu chữ nút mới
+          padding: 0.75rem 1.5rem;
+          border-radius: 8px;
+          font-weight: 600;
+          border: none;
+          cursor: pointer;
+          transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+          &:hover {
+            background-color: $newsletter-button-hover-bg;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+          }
+
+          @media (max-width: 480px) {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  // Styles cho Footer Bottom: Copyright và Payment Methods
+  .footer-bottom {
+    border-top: 1px solid $border-color;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    font-size: 0.85rem;
+    color: $footer-text-color;
+
+    display: flex;
+    flex-direction: column; // Luôn xếp cột: copyright trên, payment dưới
+    align-items: center; // Căn giữa theo chiều ngang cho cả 2 mục con
+    gap: 1.5rem; // Khoảng cách giữa dòng bản quyền và các logo thanh toán
+
+    .copyright-text {
+        margin: 0;
+        line-height: 1.4; // Tăng line-height cho dòng bản quyền dễ đọc hơn
+        text-align: center; // Đảm bảo dòng bản quyền được căn giữa
+    }
+
+    .payment-methods {
+        display: flex;
+        flex-wrap: wrap; // Cho phép các icon xuống dòng nếu không đủ chỗ
+        justify-content: center; // Luôn căn giữa các icon thanh toán
+        gap: 1.2rem; // Tăng khoảng cách giữa các icon để chúng thoáng hơn và cân đối với kích thước to hơn
+
+        img {
+            height: 38px; // Tăng kích thước icon lên đáng kể
+            width: auto; // Đảm bảo tỷ lệ ảnh
+            filter: grayscale(15%); // Điều chỉnh độ xám nhẹ
+            opacity: 0.85; // Điều chỉnh độ trong suốt
+            transition: opacity 0.3s ease, filter 0.3s ease, transform 0.2s ease;
+            cursor: pointer;
+
+            &:hover {
+                filter: grayscale(0%); // Trở lại màu sắc đầy đủ khi hover
+                opacity: 1; // Rõ ràng hơn khi hover
+                transform: translateY(-3px) scale(1.1); // Hiệu ứng nhấc và phóng to mạnh hơn
+            }
+        }
+    }
+  }
+}

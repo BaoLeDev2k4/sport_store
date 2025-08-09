@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "67b0a4fbb5a39baf9de368ff"
+  },
+  "name": "Đồ nam",
+  "description": "Danh mục đồ thể thao nam",
+  "__v": 0,
+  "updatedAt": {
+    "$date": "2025-06-28T06:07:41.616Z"
+  },
+  "image": "donam2.webp",
+  "createdAt": {
+    "$date": "2025-06-10T01:31:38.515Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b0a54db5a39baf9de36902"
+  },
+  "name": "Đồ nữ",
+  "description": "Danh mục đồ thể thao nữ",
+  "__v": 0,
+  "updatedAt": {
+    "$date": "2025-06-28T06:08:04.684Z"
+  },
+  "image": "donu4.webp",
+  "createdAt": {
+    "$date": "2025-06-19T01:31:38.569Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b0a582b5a39baf9de36904"
+  },
+  "name": "Phụ kiện",
+  "description": "Danh mục phụ kiện thể thao",
+  "__v": 0,
+  "updatedAt": {
+    "$date": "2025-06-28T06:08:15.707Z"
+  },
+  "image": "phukiennam1_black.webp",
+  "createdAt": {
+    "$date": "2025-06-19T01:31:38.620Z"
+  }
+}]

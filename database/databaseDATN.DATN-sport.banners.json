@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "6847f7a01d1b562187ac98a7"
+  },
+  "title": "Banner 1",
+  "image": "banner3.webp",
+  "description": "Banner quảng bá bộ sưu tập PICKLEBALL",
+  "createdAt": {
+    "$date": "2025-06-10T08:35:13.061Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-08T09:22:24.489Z"
+  },
+  "__v": 0,
+  "status": "Active"
+},
+{
+  "_id": {
+    "$oid": "6847f7a01d1b562187ac98a8"
+  },
+  "title": "Banner 2",
+  "image": "banner1.webp",
+  "description": "Banner quảng bá áo polo thể thao",
+  "createdAt": {
+    "$date": "2025-06-10T08:41:14.067Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-08T09:22:37.503Z"
+  },
+  "__v": 0,
+  "status": "Active"
+},
+{
+  "_id": {
+    "$oid": "6847f7a01d1b562187ac98a9"
+  },
+  "title": "Banner 3",
+  "image": "banner2.jpg",
+  "description": "Banner quảng bá áo thun chạy bộ thể thao",
+  "createdAt": {
+    "$date": "2025-06-10T08:43:13.662Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-08T09:22:46.083Z"
+  },
+  "__v": 0,
+  "status": "Active"
+},
+{
+  "_id": {
+    "$oid": "6895beb286d1be5f16f122d3"
+  },
+  "title": "tesd",
+  "image": "banner2.webp",
+  "description": "dsadsa",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-08-08T09:09:06.977Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-08T09:22:53.064Z"
+  },
+  "__v": 0
+}]

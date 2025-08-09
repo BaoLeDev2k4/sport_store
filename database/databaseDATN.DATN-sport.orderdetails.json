@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "68666363c3aa69364907236d"
+  },
+  "id_order": {
+    "$oid": "68666363c3aa69364907236b"
+  },
+  "id_product": {
+    "$oid": "67b877fec8ab0a6e2e0dd8d5"
+  },
+  "variant_id": {
+    "$oid": "67f3e5cc228dc7f3df6ae807"
+  },
+  "name": "Áo Tshirt Training Seamless Body Mapping",
+  "size": "M",
+  "color": "Đen",
+  "unit_price": 119000,
+  "price": 595000,
+  "quantity": 5,
+  "createdAt": {
+    "$date": "2025-07-03T11:02:59.822Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-03T11:02:59.822Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68666618c3aa693649072c44"
+  },
+  "id_order": {
+    "$oid": "68666618c3aa693649072c42"
+  },
+  "id_product": {
+    "$oid": "67b87771c8ab0a6e2e0dd8cb"
+  },
+  "variant_id": {
+    "$oid": "67c5bebc79592ee47bae7460"
+  },
+  "name": "Quần Thể Thao Nam 7\" Ultra Shorts",
+  "size": "M",
+  "color": "Đen",
+  "unit_price": 139000,
+  "price": 139000,
+  "quantity": 1,
+  "createdAt": {
+    "$date": "2025-07-03T11:14:32.448Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-03T11:14:32.448Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68666f7fc3aa6936490747b3"
+  },
+  "id_order": {
+    "$oid": "68666f7fc3aa6936490747b1"
+  },
+  "id_product": {
+    "$oid": "67b877c7c8ab0a6e2e0dd8d0"
+  },
+  "variant_id": {
+    "$oid": "67c5becf79592ee47bae7523"
+  },
+  "name": "Áo Polo nam Premium Pique",
+  "size": "M",
+  "color": "Trắng",
+  "unit_price": 139000,
+  "price": 139000,
+  "quantity": 1,
+  "createdAt": {
+    "$date": "2025-07-03T11:54:39.510Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-03T11:54:39.510Z"
+  },
+  "__v": 0
+}]

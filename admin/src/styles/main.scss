@@ -1,0 +1,284 @@
+// Custom variables
+:root {
+  --sidebar-width: 280px;
+}
+
+// Sidebar styles
+.sidebar {
+  width: var(--sidebar-width);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 1000;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  
+  @media (min-width: 768px) {
+    position: relative;
+    transform: translateX(0);
+  }
+  
+  &.sidebar-open {
+    transform: translateX(0);
+  }
+}
+
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.main-content {
+  @media (min-width: 768px) {
+    margin-left: 0;
+  }
+}
+
+// Hover effects
+.hover-bg-secondary:hover {
+  background-color: rgba(108, 117, 125, 0.2) !important;
+}
+
+.hover-bg-light:hover {
+  background-color: rgba(248, 249, 250, 0.8) !important;
+}
+
+// Loading animation
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+// Custom card styles
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+  }
+}
+
+// Table styles
+.table {
+  th {
+    border-top: none;
+    font-weight: 600;
+    color: #495057;
+    background-color: #f8f9fa;
+  }
+  
+  td {
+    vertical-align: middle;
+  }
+}
+
+// Button styles
+.btn {
+  transition: all 0.2s ease;
+}
+
+// Form styles
+.form-control {
+  border: 1px solid #dee2e6;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  
+  &:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+}
+
+// Badge styles
+.badge {
+  font-size: 0.75em;
+  padding: 0.375rem 0.75rem;
+}
+
+// Status badges
+.status-active {
+  background-color: #28a745 !important;
+}
+
+.status-inactive {
+  background-color: #6c757d !important;
+}
+
+.status-expired {
+  background-color: #dc3545 !important;
+}
+
+.status-pending {
+  background-color: #ffc107 !important;
+  color: #212529 !important;
+}
+
+.status-confirmed {
+  background-color: #17a2b8 !important;
+}
+
+.status-shipping {
+  background-color: #fd7e14 !important;
+}
+
+.status-delivered {
+  background-color: #28a745 !important;
+}
+
+.status-cancelled {
+  background-color: #dc3545 !important;
+}
+
+// Loading spinner
+.spinner-border-sm {
+  width: 1rem;
+  height: 1rem;
+}
+
+// Responsive utilities
+@media (max-width: 767.98px) {
+  .table-responsive {
+    font-size: 0.875rem;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+  }
+}
+
+// Custom scrollbar
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+// Animation classes
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Modal styles
+.modal-content {
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  border-bottom: 1px solid #dee2e6;
+  padding: 1.5rem;
+  flex-shrink: 0; // Prevent header from shrinking
+}
+
+.modal-body {
+  padding: 1.5rem;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.modal-footer {
+  border-top: 1px solid #dee2e6;
+  padding: 1.5rem;
+  flex-shrink: 0; // Prevent footer from shrinking
+}
+
+// Scrollable modal improvements
+.modal-dialog-scrollable {
+  .modal-content {
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal-body {
+    overflow-y: auto;
+    max-height: calc(90vh - 120px); // Subtract header and footer height
+  }
+}
+
+// Image styles
+.product-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 0.375rem;
+}
+
+.category-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+// Search and filter styles
+.search-filter-container {
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+// Pagination styles
+.pagination {
+  .page-link {
+    border: 1px solid #dee2e6;
+    color: #495057;
+    
+    &:hover {
+      background-color: #e9ecef;
+      border-color: #dee2e6;
+    }
+  }
+  
+  .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+}

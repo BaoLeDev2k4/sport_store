@@ -1,0 +1,157 @@
+.voucher-page {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  font-family: 'Inter', sans-serif;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #3e8dff;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .voucher-error {
+    background-color: #ffeaea;
+    color: #e53935;
+    padding: 10px 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .voucher-list {
+    display: grid;
+    gap: 16px;
+  }
+
+  .voucher-card {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-left: 6px solid #3e8dff;
+    background-color: #f9fcff;
+    border-radius: 8px;
+
+    .voucher-code {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 1.1rem;
+      margin-bottom: 6px;
+
+      .voucher-icon {
+        font-size: 1.2rem;
+      }
+
+      .voucher-label {
+        font-weight: 600;
+        color: #222;
+      }
+
+      .voucher-value {
+        font-weight: 700;
+        color: #1976d2;
+      }
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: #333;
+      margin-bottom: 8px;
+    }
+
+    .voucher-info {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 0.9rem;
+      color: #444;
+
+      span {
+        background: #f0f8ff;
+        padding: 6px 10px;
+        border-radius: 6px;
+      }
+
+      .min-order-condition {
+        background-color: #fff3cd !important;
+        color: #856404 !important;
+        border: 1px solid #ffeaa7;
+        font-weight: 500;
+      }
+
+      .voucher-status {
+        background-color: #f0f8ff;
+        padding: 6px 10px;
+        border-radius: 6px;
+        font-weight: normal !important; // dùng font chữ bình thường
+        font-family: 'Inter', sans-serif;
+
+        &.active {
+          background-color: #d4edda;
+          color: #2e7d32;
+        }
+
+        &.expired {
+          background-color: #ffe0e0;
+          color: #c62828;
+        }
+
+        &.out-of-stock {
+          background-color: #fff3cd;
+          color: #856404;
+        }
+
+        &.not-started {
+          background-color: #e2e3e5;
+          color: #6c757d;
+        }
+
+        &.inactive {
+          background-color: #f8d7da;
+          color: #721c24;
+        }
+      }
+    }
+
+    .voucher-actions {
+      margin-top: 16px;
+      display: flex;
+      justify-content: flex-end;
+
+      .apply-voucher-btn {
+        background-color: #3e8dff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover:not(.disabled) {
+          background-color: #2e6fd8;
+          transform: translateY(-1px);
+          box-shadow: 0 4px 8px rgba(62, 141, 255, 0.3);
+        }
+
+        &.disabled {
+          background-color: #ccc;
+          color: #666;
+          cursor: not-allowed;
+          opacity: 0.6;
+        }
+
+        &:active:not(.disabled) {
+          transform: translateY(0);
+        }
+      }
+    }
+  }
+}

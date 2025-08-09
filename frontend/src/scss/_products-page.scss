@@ -1,0 +1,300 @@
+/* src/scss/_products-page.scss */
+
+// --- Variables (Biến) ---
+// Các biến này được định nghĩa trực tiếp trong file này
+$main-bg-color: #f8f9fa;
+$sidebar-bg: #ffffff;
+$sidebar-border: #e0e0e0;
+$text-dark: #333333;
+$text-light: #555555;
+$heading-color: #2c3e50; // Màu xanh đậm
+$accent-color: #3E8DFF; // Màu xanh thường (khi hover)
+$accent-hover: darken($accent-color, 10%);
+$active-item-bg: #3E8DFF; // Sử dụng accent-color cho active item background
+$highlight-color: #ff4d4f;  // giá mới vẫn giữ màu đỏ cho nổi bật
+$active-item-text: #ffffff;
+$shadow-light: rgba(0, 0, 0, 0.08);
+
+// Màu xanh đậm cho chữ Nam/Nữ
+$default-text-color-gender: $heading-color;
+
+
+// --- Global styles for products page (Styles toàn cục cho trang sản phẩm) ---
+.products-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $main-bg-color;
+}
+
+.products-main-content {
+  flex-grow: 1;
+  padding: 2rem 0;
+  font-family: 'Roboto', sans-serif;
+  color: $heading-color;
+
+  .products-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+    padding: 0 1.5rem;
+
+    @media (max-width: 992px) {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    @media (max-width: 768px) {
+      padding: 0 1rem;
+    }
+  }
+}
+
+
+// --- Sidebar styles (Styles cho thanh bên) ---
+.products-sidebar {
+  flex-shrink: 0;
+  width: 280px;
+  background-color: $sidebar-bg;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px $shadow-light;
+  padding: 1.5rem;
+  border: 1px solid $sidebar-border;
+  overflow: hidden;
+
+  @media (max-width: 992px) {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $heading-color;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid $sidebar-border;
+    text-align: center;
+  }
+
+  .category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    .category-item {
+      margin-bottom: 0.5rem;
+      border-radius: 8px;
+      transition: background-color 0.2s ease;
+      
+      /* Thêm đường phân cách */
+      border-bottom: 1px solid $sidebar-border; 
+      padding-bottom: 0.5rem; 
+      margin-bottom: 1rem; 
+
+      /* Loại bỏ đường kẻ cho mục cuối cùng và nút reset */
+      &:last-of-type, &.reset-filter {
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 0.5rem; /* Giữ một chút khoảng cách nếu không phải nút reset */
+      }
+      
+      &.reset-filter {
+        margin-top: 1.5rem; /* Giữ khoảng cách trên cho nút reset */
+      }
+
+
+      & > button {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 0.8rem 1rem;
+        background-color: transparent;
+        border: none;
+        text-align: left;
+        font-size: 1.15rem;
+        font-weight: 600;
+        color: $heading-color;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        border-radius: 8px;
+
+        &:hover {
+          background-color: lighten($accent-color, 45%);
+          color: $accent-color;
+        }
+      }
+
+      &.active {
+        & > button {
+          background-color: $active-item-bg;
+          color: $active-item-text;
+          box-shadow: 0 2px 8px rgba($accent-color, 0.3);
+          &:hover {
+            background-color: $accent-hover;
+            color: $active-item-text;
+          }
+        }
+      }
+
+      .subcategory-list {
+        list-style: none;
+        padding: 0;
+        margin: 0.5rem 0 0.5rem 1.5rem;
+        border-left: 2px solid $sidebar-border;
+        border-radius: 0 0 0 8px;
+
+        li {
+          margin-bottom: 0.2rem;
+          button {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background-color: transparent;
+            border: none;
+            width: 100%;
+            text-align: left;
+            cursor: pointer;
+
+            span {
+              font-size: 1.05rem; // Kích thước chữ lớn hơn một tí
+              font-weight: 500;
+              color: $default-text-color-gender; // Chữ Nam/Nữ luôn xanh đậm
+              transition: color 0.1s ease;
+            }
+
+            &:hover {
+              span {
+                color: $default-text-color-gender;
+              }
+              background-color: transparent;
+            }
+
+            &.active-gender {
+              span {
+                color: $default-text-color-gender;
+              }
+              .dot-icon {
+                color: black;
+                stroke: black;
+                fill: black;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .dot-icon {
+      color: white;
+      stroke: black;
+      stroke-width: 1.5;
+      fill: white;
+      transition: color 0.3s ease, stroke 0.3s ease, fill 0.3s ease;
+    }
+
+    .subcategory-list li button:not(.active-gender):hover .dot-icon {
+        color: white;
+        stroke: $accent-color;
+        fill: white;
+    }
+
+    .reset-filter {
+      // Điều chỉnh margin và padding đã được thực hiện trong .category-item
+      button {
+        background-color: #f0f0f0;
+        color: $heading-color;
+        border: 1px solid $sidebar-border;
+        font-weight: 600;
+        &:hover {
+          background-color: darken(#f0f0f0, 5%);
+          color: $accent-color;
+        }
+      }
+    }
+  }
+}
+
+// --- Product Grid styles (Styles cho lưới sản phẩm) ---
+.products-grid-area {
+  flex-grow: 1;
+
+  .current-filter-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: $heading-color;
+    margin-bottom: 1.5rem;
+    text-align: left;
+
+    @media (max-width: 768px) {
+      font-size: 1.8rem;
+      text-align: center;
+    }
+  }
+
+  .product-list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+
+    // Apply styles to elements within ProductCard via the Link wrapper
+    a { // The Link component renders an <a> tag
+      text-decoration: none !important; // Force remove underline from the link itself
+      color: $heading-color; // Ensure the link text color is dark blue by default
+
+      // Target common elements within the product card that display text
+      // These rules will apply to the content of ProductCard
+      h3, h4, p, span { // Điều chỉnh các thẻ này nếu ProductCard của bạn sử dụng thẻ khác
+        text-decoration: none !important; // Loại bỏ gạch chân
+        border-bottom: none !important; // Loại bỏ bất kỳ đường viền dưới tiềm ẩn nào
+        color: $heading-color; // Đảm bảo màu chữ là xanh đậm
+      }
+
+      // Explicitly set colors and styles for specific text elements in the card
+      .product-title { // Giả định ProductCard có class cho tiêu đề
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+        color: $heading-color; // Đảm bảo màu xanh đậm
+      }
+
+      .product-price { // Giả định ProductCard có class cho giá
+        font-size: 1rem;
+        font-weight: 700;
+        color: #2c5aa0; // ✅ Màu xanh đậm cho UX tốt hơn
+        margin-top: 0.5rem;
+      }
+
+      .product-old-price { // Nếu giá cũ có class cụ thể
+        font-size: 0.9rem;
+        color: $text-light;
+        text-decoration: line-through;
+      }
+      // Đã xóa .product-rating { ... }
+    }
+
+
+    @media (min-width: 1200px) {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2rem;
+    }
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1rem;
+    }
+  }
+
+  .no-products-found {
+    text-align: center;
+    font-size: 1.1rem;
+    color: $text-light;
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: $sidebar-bg;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px $shadow-light;
+  }
+}

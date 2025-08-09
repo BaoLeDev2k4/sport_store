@@ -1,0 +1,146 @@
+// Variables
+$section-title-color: #2c3e50;
+$section-spacing: 3rem;
+$nav-button-size: 44px;
+
+.product-section {
+  margin-top: $section-spacing;
+  margin-bottom: $section-spacing;
+
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: $section-title-color;
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 4px;
+      background-color: #3E8DFF;
+      border-radius: 2px;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    padding: 0 1rem;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2rem;
+    }
+
+    &.grid-cols-5 {
+      @media (min-width: 1024px) {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 1.5rem;
+      }
+    }
+
+    &.grid-cols-6 {
+      @media (min-width: 1024px) {
+        grid-template-columns: repeat(6, 1fr);
+        gap: 1rem;
+      }
+    }
+  }
+
+  &.carousel-mode {
+    position: relative;
+
+    .carousel-wrapper {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      padding: 0 2rem;
+    }
+
+    .carousel-track {
+      display: flex;
+      justify-content: center;
+      gap: 1.2rem;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      padding: 1rem 0;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .carousel-nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(62, 141, 255, 0.85);
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      width: $nav-button-size;
+      height: $nav-button-size;
+      cursor: pointer;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      transition: background-color 0.3s ease;
+
+      svg {
+        width: 1.4rem;
+        height: 1.4rem;
+        stroke-width: 2.5;
+      }
+
+      &:hover {
+        background-color: lighten(#3E8DFF, 10%);
+      }
+
+      &.left {
+        left: 0;
+      }
+
+      &.right {
+        right: 0;
+      }
+    }
+  }
+}
+
+.carousel-slide {
+  flex: 0 0 auto;
+  max-width: 220px;
+
+  .product-card {
+    height: 100%;
+  }
+
+  .product-image-wrapper {
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+  }
+}

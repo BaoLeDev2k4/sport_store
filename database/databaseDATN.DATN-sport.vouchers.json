@@ -1,0 +1,115 @@
+[{
+  "_id": {
+    "$oid": "67cb025d5b77a1eaeb2dd20d"
+  },
+  "code": "SPS20",
+  "discount": 20000,
+  "start_date": {
+    "$date": "2025-06-09T00:00:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-06-25T00:00:00.000Z"
+  },
+  "status": "Expired",
+  "quantity": 60,
+  "createdAt": {
+    "$date": "2025-06-07T14:27:41.327Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-29T03:48:31.257Z"
+  },
+  "__v": 0,
+  "description": "Áp dụng cho đơn hàng từ 200k trở lên. Không đi kèm với chương trình khác"
+},
+{
+  "_id": {
+    "$oid": "67cb02705b77a1eaeb2dd211"
+  },
+  "code": "FS30",
+  "discount": 30000,
+  "start_date": {
+    "$date": "2025-06-29T00:00:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-07-29T00:00:00.000Z"
+  },
+  "status": "InActive",
+  "quantity": 0,
+  "createdAt": {
+    "$date": "2025-06-07T14:28:00.839Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-29T04:21:20.154Z"
+  },
+  "__v": 0,
+  "description": "Áp dụng cho đơn hàng từ 300k trở lên"
+},
+{
+  "_id": {
+    "$oid": "67cbfec66185bf0595ff19da"
+  },
+  "code": "SPS50",
+  "discount": 50000,
+  "start_date": {
+    "$date": "2025-06-10T00:00:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-10-09T00:00:00.000Z"
+  },
+  "status": "Active",
+  "quantity": 57,
+  "createdAt": {
+    "$date": "2025-06-08T08:24:38.674Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-29T03:18:13.690Z"
+  },
+  "__v": 0,
+  "description": "Áp dụng cho đơn hàng từ 500k trở lên. Không đi kèm với chương trình khác"
+},
+{
+  "_id": {
+    "$oid": "6860b3e40e985a84e83e7f38"
+  },
+  "code": "SPS Test 100",
+  "discount": 100000,
+  "start_date": {
+    "$date": "2025-06-30T00:00:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-08-06T00:00:00.000Z"
+  },
+  "status": "Active",
+  "quantity": 100,
+  "description": "test mã sắp áp dụng",
+  "createdAt": {
+    "$date": "2025-06-29T03:32:52.041Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-29T03:32:52.041Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6860bafab88ce316a90ac0b7"
+  },
+  "code": "SPS test 200",
+  "discount": 200000,
+  "start_date": {
+    "$date": "2025-06-29T00:00:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-06-30T00:00:00.000Z"
+  },
+  "status": "out_of_stock",
+  "quantity": 0,
+  "description": "test sale",
+  "createdAt": {
+    "$date": "2025-06-29T04:03:06.792Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-29T04:21:58.593Z"
+  },
+  "__v": 0
+}]
