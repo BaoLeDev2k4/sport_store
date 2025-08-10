@@ -4,12 +4,14 @@
     "module": "ES2020",
     "moduleResolution": "Node",
     "outDir": "./dist",
-    "rootDir": "./",                 // ← Cho phép file nằm ngoài src
+    "rootDir": "./src",
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
-    "types": ["node"],
-    "typeRoots": ["./src/types", "./node_modules/@types"]
-  }
+    "typeRoots": ["./node_modules/@types"],
+    "lib": ["ES2020"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts"]
 }
