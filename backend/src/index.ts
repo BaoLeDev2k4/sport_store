@@ -29,9 +29,6 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-// Serve static files từ thư mục uploads
-app.use('/uploads', express.static(path.join(process.cwd(), 'uploads')));
-
 // Serve static files for images
 app.use('/images', express.static(path.join(__dirname, '../../frontend/public/images')));
 // Serve static files for admin images

@@ -15,10 +15,22 @@ const storage = multer.diskStorage({
   destination: (req, _file, cb) => {
     const uploadType = req.params.type; // 'products', 'categories', 'banners', 'avatars'
 
-    // Trong production, upload vào thư mục uploads của backend
-    const uploadPath = path.join(process.cwd(), 'uploads', uploadType);
-    ensureDirectoryExists(uploadPath);
-    cb(null, uploadPath);
+    // Nếu là banners, upload vào admin folder
+    if (uploadType === 'banners') {
+      const uploadPath = path.join(process.cwd(), '../admin/public/images', uploadType);
+      ensureDirectoryExists(uploadPath);
+      cb(null, uploadPath);
+    } else if (uploadType === 'avatars') {
+      // Avatar upload vào frontend/public/images/avatars
+      const uploadPath = path.join(process.cwd(), '../frontend/public/images/avatars');
+      ensureDirectoryExists(uploadPath);
+      cb(null, uploadPath);
+    } else {
+      // Các loại khác vẫn upload vào frontend
+      const uploadPath = path.join(process.cwd(), '../frontend/public/images', uploadType);
+      ensureDirectoryExists(uploadPath);
+      cb(null, uploadPath);
+    }
   },
   filename: (_req, file, cb) => {
     // Giữ hoàn toàn nguyên tên file gốc
@@ -29,7 +41,7 @@ const storage = multer.diskStorage({
 // Cấu hình multer riêng cho avatar
 const avatarStorage = multer.diskStorage({
   destination: (_req, _file, cb) => {
-    const uploadPath = path.join(process.cwd(), 'uploads', 'avatars');
+    const uploadPath = path.join(process.cwd(), '../frontend/public/images/avatars');
     ensureDirectoryExists(uploadPath);
     cb(null, uploadPath);
   },
@@ -136,7 +148,7 @@ export const uploadAvatar = async (req: Request, res: Response): Promise<void> =
 // Xóa ảnh
 export const deleteImage = async (req: Request, res: Response): Promise<void> => {
   const { type, filename } = req.params;
-  const filePath = path.join(process.cwd(), 'uploads', type, filename);
+  const filePath = path.join(process.cwd(), '../frontend/public/images', type, filename);
 
   if (fs.existsSync(filePath)) {
     fs.unlinkSync(filePath);
@@ -150,7 +162,7 @@ export const deleteImage = async (req: Request, res: Response): Promise<void> =>
 export const getImagesList = async (req: Request, res: Response): Promise<void> => {
   try {
     const { type } = req.params; // 'products', 'categories', 'posts'
-    const imagesPath = path.join(process.cwd(), 'uploads', type);
+    const imagesPath = path.join(process.cwd(), '../frontend/public/images', type);
 
     if (!fs.existsSync(imagesPath)) {
       res.json({ images: [] });
