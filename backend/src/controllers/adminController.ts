@@ -8,6 +8,14 @@ import OrderDetail from '../models/orderDetailModel.js';
 import Voucher from '../models/voucherModel.js';
 import { RequestUser } from '../types/RequestUser.js';
 
+// Utility function to handle errors
+const getErrorMessage = (error: unknown): string => {
+  if (error instanceof Error) {
+    return error.message;
+  }
+  return 'Unknown error';
+};
+
 // Dashboard Overview Statistics
 export const getDashboardStats = async (_req: Request, res: Response): Promise<void> => {
   try {
@@ -177,7 +185,7 @@ export const getDashboardStats = async (_req: Request, res: Response): Promise<v
       topProducts,
       recentUsers
     });
-  } catch (error) {
+  } catch (error: any) {
     console.error('Dashboard stats error:', error);
     res.status(500).json({ message: 'Lỗi server khi lấy thống kê dashboard' });
   }
@@ -271,7 +279,7 @@ export const getRevenueChart = async (req: Request, res: Response): Promise<void
       month: selectedMonth,
       isDaily: selectedMonth !== null
     });
-  } catch (error) {
+  } catch (error: any) {
     console.error('Revenue chart error:', error);
     res.status(500).json({ message: 'Lỗi server khi lấy dữ liệu biểu đồ doanh thu' });
   }
@@ -322,14 +330,14 @@ export const getTopProductsFiltered = async (req: Request, res: Response): Promi
       year: selectedYear,
       month: selectedMonth
     });
-  } catch (error) {
+  } catch (error: any) {
     console.error('Top products filtered error:', error);
     res.status(500).json({ message: 'Lỗi server khi lấy top sản phẩm' });
   }
 };
 
 // Product Management
-export const getProductsAdmin = async (req: Request, res: Response) => {
+export const getProductsAdmin = async (req: Request, res: Response): Promise<void> => {
   try {
     const { page = 1, limit = 10, category, status, hot, search, flag } = req.query;
 
@@ -357,46 +365,54 @@ export const getProductsAdmin = async (req: Request, res: Response) => {
         total
       }
     });
-  } catch (error) {
+  } catch (error: any) {
     console.error('Error in getProductsAdmin:', error);
     res.status(500).json({ message: 'Lỗi server', error: error.message });
   }
 };
 
-export const createProduct = async (req: Request, res: Response) => {
+export const createProduct = async (req: Request, res: Response): Promise<void> => {
   try {
     // Validate required fields
     const { name, idcate, variants } = req.body;
 
     if (!name || !name.trim()) {
-      return res.status(400).json({ message: 'Tên sản phẩm không được để trống' });
+      res.status(400).json({ message: 'Tên sản phẩm không được để trống' });
+      return;
     }
 
     if (!idcate) {
-      return res.status(400).json({ message: 'Vui lòng chọn danh mục' });
+      res.status(400).json({ message: 'Vui lòng chọn danh mục' });
+      return;
     }
 
     if (!variants || variants.length === 0) {
-      return res.status(400).json({ message: 'Phải có ít nhất một biến thể sản phẩm' });
+      res.status(400).json({ message: 'Phải có ít nhất một biến thể sản phẩm' });
+      return;
     }
 
     // Validate each variant
     for (let i = 0; i < variants.length; i++) {
       const variant = variants[i];
       if (!variant.option || !variant.option.trim()) {
-        return res.status(400).json({ message: `Biến thể ${i + 1}: Tùy chọn không được để trống` });
+        res.status(400).json({ message: `Biến thể ${i + 1}: Tùy chọn không được để trống` });
+        return;
       }
       if (!variant.size || !variant.size.trim()) {
-        return res.status(400).json({ message: `Biến thể ${i + 1}: Size không được để trống` });
+        res.status(400).json({ message: `Biến thể ${i + 1}: Size không được để trống` });
+        return;
       }
       if (!variant.color || !variant.color.trim()) {
-        return res.status(400).json({ message: `Biến thể ${i + 1}: Màu sắc không được để trống` });
+        res.status(400).json({ message: `Biến thể ${i + 1}: Màu sắc không được để trống` });
+        return;
       }
       if (!variant.price || variant.price <= 0) {
-        return res.status(400).json({ message: `Biến thể ${i + 1}: Giá phải lớn hơn 0` });
+        res.status(400).json({ message: `Biến thể ${i + 1}: Giá phải lớn hơn 0` });
+        return;
       }
       if (!variant.image || !variant.image.trim()) {
-        return res.status(400).json({ message: `Biến thể ${i + 1}: Ảnh không được để trống` });
+        res.status(400).json({ message: `Biến thể ${i + 1}: Ảnh không được để trống` });
+        return;
       }
     }
 
@@ -490,7 +506,7 @@ export const deleteProduct = async (req: Request, res: Response): Promise<void> 
 };
 
 // Category Management
-export const getCategoriesAdmin = async (_req: Request, res: Response) => {
+export const getCategoriesAdmin = async (_req: Request, res: Response): Promise<void> => {
   try {
     const categories = await Category.find().sort({ createdAt: -1 });
 
@@ -506,17 +522,17 @@ export const getCategoriesAdmin = async (_req: Request, res: Response) => {
     );
 
     res.json(categoriesWithCount);
-  } catch (error) {
+  } catch (error: any) {
     res.status(500).json({ message: 'Lỗi server', error });
   }
 };
 
-export const createCategory = async (req: Request, res: Response) => {
+export const createCategory = async (req: Request, res: Response): Promise<void> => {
   try {
     const category = new Category(req.body);
     await category.save();
     res.status(201).json({ message: 'Tạo danh mục thành công', category });
-  } catch (error) {
+  } catch (error: any) {
     res.status(500).json({ message: 'Lỗi server', error });
   }
 };
@@ -552,7 +568,7 @@ export const deleteCategory = async (req: Request, res: Response): Promise<void>
 };
 
 // User Management
-export const getUsersAdmin = async (req: Request, res: Response) => {
+export const getUsersAdmin = async (req: Request, res: Response): Promise<void> => {
   try {
     const { page = 1, limit = 10, role, status, search } = req.query;
 
@@ -584,7 +600,7 @@ export const getUsersAdmin = async (req: Request, res: Response) => {
         total
       }
     });
-  } catch (error) {
+  } catch (error: any) {
     res.status(500).json({ message: 'Lỗi server', error });
   }
 };
@@ -702,8 +718,8 @@ export const getUserStats = async (req: RequestUser, res: Response): Promise<voi
       }
       acc[orderId].push({
         name: detail.name,
-        image: typeof detail.id_product === 'object' && detail.id_product.images && detail.id_product.images.length > 0 
-          ? detail.id_product.images[0] 
+        image: typeof detail.id_product === 'object' && (detail.id_product as any).images && (detail.id_product as any).images.length > 0
+          ? (detail.id_product as any).images[0]
           : null
       });
       return acc;
@@ -743,7 +759,7 @@ export const getUserStats = async (req: RequestUser, res: Response): Promise<voi
     };
 
     res.json(responseData);
-  } catch (error) {
+  } catch (error: any) {
     console.error('Get user stats error:', error);
     res.status(500).json({ message: 'Lỗi server khi lấy thống kê người dùng' });
   }
@@ -765,16 +781,17 @@ export const getUserById = async (req: Request, res: Response): Promise<void> =>
 };
 
 // Kiểm tra trạng thái tài khoản admin hiện tại
-export const checkAdminStatus = async (req: Request, res: Response) => {
+export const checkAdminStatus = async (req: Request, res: Response): Promise<void> => {
   try {
     const adminId = (req as any).userId;
     const admin = await User.findById(adminId);
 
     if (!admin) {
-      return res.status(404).json({
+      res.status(404).json({
         message: 'Không tìm thấy tài khoản admin',
         code: 'ADMIN_NOT_FOUND'
       });
+      return;
     }
 
     res.json({

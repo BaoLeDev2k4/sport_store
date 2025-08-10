@@ -1,7 +1,7 @@
 import { useCart } from '../context/CartContext';
 import { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../context/AuthContext';
-import { fetchVouchers, validateVoucher } from '../api/couponApi';
+import { validateVoucher } from '../api/couponApi';
 import { createOrder } from '../api/orderApi';
 import { createVNPayPayment } from '../api/paymentApi';
 import type { Voucher } from '../types/Coupon';
@@ -19,19 +19,14 @@ const CheckoutPage = () => {
   const [error, setError] = useState('');
   const [paymentMethod, setPaymentMethod] = useState<'COD' | 'VNPAY'>('COD');
   const [note, setNote] = useState('');
-  const [vouchers, setVouchers] = useState<Voucher[]>([]);
+
   const [selectedVoucher, setSelectedVoucher] = useState<Voucher | null>(null);
   const navigate = useNavigate();
-  const today = new Date();
 
   const total = cart.reduce((sum, item) => sum + item.variant.price * item.quantity, 0);
   const discountedTotal = total - discount;
 
   useEffect(() => {
-    fetchVouchers()
-      .then((res) => setVouchers(res.data))
-      .catch(() => setVouchers([]));
-
     // Kiểm tra voucher đã chọn từ VoucherPage
     const savedVoucher = localStorage.getItem('selectedVoucher');
     if (savedVoucher) {
@@ -59,7 +54,7 @@ const CheckoutPage = () => {
 
     try {
       const response = await validateVoucher(voucherCode.toUpperCase(), total);
-      const { voucher } = response.data;
+      const { voucher } = (response as any).data;
 
       setSelectedVoucher(voucher);
       setDiscount(voucher.discount);
@@ -104,7 +99,7 @@ const CheckoutPage = () => {
     try {
       if (paymentMethod === 'COD') {
         // COD: Tạo order ngay lập tức
-        const orderResponse = await createOrder(payload, token);
+        await createOrder(payload, token);
         toast.success('Đặt hàng thành công!');
         clearCart();
         navigate('/profile/orders');
@@ -118,7 +113,7 @@ const CheckoutPage = () => {
           } else {
             toast.error('Không thể tạo liên kết thanh toán VNPay');
           }
-        } catch (error) {
+        } catch {
           toast.error('Lỗi khi tạo thanh toán VNPay');
         }
       }

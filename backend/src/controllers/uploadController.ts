@@ -10,29 +10,15 @@ const ensureDirectoryExists = (dirPath: string) => {
   }
 };
 
-
-
 // Cấu hình multer cho upload
 const storage = multer.diskStorage({
-  destination: (req, file, cb) => {
+  destination: (req, _file, cb) => {
     const uploadType = req.params.type; // 'products', 'categories', 'banners', 'avatars'
 
-    // Nếu là banners, upload vào admin folder
-    if (uploadType === 'banners') {
-      const uploadPath = path.join(process.cwd(), '../admin/public/images', uploadType);
-      ensureDirectoryExists(uploadPath);
-      cb(null, uploadPath);
-    } else if (uploadType === 'avatars') {
-      // ✅ Avatar upload vào frontend/public/images/avatars
-      const uploadPath = path.join(process.cwd(), '../frontend/public/images/avatars');
-      ensureDirectoryExists(uploadPath);
-      cb(null, uploadPath);
-    } else {
-      // Các loại khác vẫn upload vào frontend
-      const uploadPath = path.join(process.cwd(), '../frontend/public/images', uploadType);
-      ensureDirectoryExists(uploadPath);
-      cb(null, uploadPath);
-    }
+    // Trong production, upload vào thư mục uploads của backend
+    const uploadPath = path.join(process.cwd(), 'uploads', uploadType);
+    ensureDirectoryExists(uploadPath);
+    cb(null, uploadPath);
   },
   filename: (_req, file, cb) => {
     // Giữ hoàn toàn nguyên tên file gốc
@@ -40,15 +26,15 @@ const storage = multer.diskStorage({
   }
 });
 
-// ✅ Cấu hình multer riêng cho avatar
+// Cấu hình multer riêng cho avatar
 const avatarStorage = multer.diskStorage({
-  destination: (req, file, cb) => {
-    const uploadPath = path.join(process.cwd(), '../frontend/public/images/avatars');
+  destination: (_req, _file, cb) => {
+    const uploadPath = path.join(process.cwd(), 'uploads', 'avatars');
     ensureDirectoryExists(uploadPath);
     cb(null, uploadPath);
   },
-  filename: (req, file, cb) => {
-    // ✅ Giữ nguyên tên file gốc
+  filename: (_req, file, cb) => {
+    // Giữ nguyên tên file gốc
     cb(null, file.originalname);
   }
 });
@@ -74,7 +60,6 @@ export const upload = multer({
   fileFilter: fileFilter
 });
 
-// ✅ Multer riêng cho avatar
 export const uploadAvatarMulter = multer({
   storage: avatarStorage,
   limits: {
@@ -129,10 +114,11 @@ export const uploadMultipleImages = async (req: Request, res: Response): Promise
 };
 
 // ✅ Upload avatar cho user
-export const uploadAvatar = async (req: Request, res: Response) => {
+export const uploadAvatar = async (req: Request, res: Response): Promise<void> => {
   try {
     if (!req.file) {
-      return res.status(400).json({ message: 'Không có file được upload' });
+      res.status(400).json({ message: 'Không có file được upload' });
+      return;
     }
 
     const filename = req.file.filename;
@@ -150,7 +136,7 @@ export const uploadAvatar = async (req: Request, res: Response) => {
 // Xóa ảnh
 export const deleteImage = async (req: Request, res: Response): Promise<void> => {
   const { type, filename } = req.params;
-  const filePath = path.join(process.cwd(), '../frontend/public/images', type, filename);
+  const filePath = path.join(process.cwd(), 'uploads', type, filename);
 
   if (fs.existsSync(filePath)) {
     fs.unlinkSync(filePath);
@@ -161,13 +147,14 @@ export const deleteImage = async (req: Request, res: Response): Promise<void> =>
 };
 
 // Lấy danh sách ảnh trong thư mục
-export const getImagesList = async (req: Request, res: Response) => {
+export const getImagesList = async (req: Request, res: Response): Promise<void> => {
   try {
     const { type } = req.params; // 'products', 'categories', 'posts'
-    const imagesPath = path.join(process.cwd(), '../frontend/public/images', type);
+    const imagesPath = path.join(process.cwd(), 'uploads', type);
 
     if (!fs.existsSync(imagesPath)) {
-      return res.json({ images: [] });
+      res.json({ images: [] });
+      return;
     }
 
     const files = fs.readdirSync(imagesPath);

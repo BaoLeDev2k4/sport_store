@@ -43,7 +43,7 @@ const VoucherPage = () => {
 
     try {
       const response = await validateVoucher(voucherCode, orderAmount);
-      const { voucher } = response.data;
+      const { voucher } = (response as any).data;
 
       // Lưu voucher vào localStorage để sử dụng trong checkout
       localStorage.setItem('selectedVoucher', JSON.stringify(voucher));

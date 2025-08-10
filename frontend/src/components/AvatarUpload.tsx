@@ -2,6 +2,13 @@ import { useState, useRef } from 'react';
 import { Upload, X, User as UserIcon } from 'lucide-react';
 import { uploadAvatar } from '../api/authApi';
 
+interface UploadResponse {
+  filename?: string;
+  data?: {
+    filename?: string;
+  };
+}
+
 interface AvatarUploadProps {
   currentAvatar?: string;
   onAvatarChange: (filename: string) => void;
@@ -49,16 +56,20 @@ const AvatarUpload = ({
 
       // Upload file
       const response = await uploadAvatar(file, token);
-      const { filename } = response;
-      
-      onAvatarChange(filename);
-      
-      // Update preview with server URL
-      setPreview(`http://localhost:5000/images/avatars/${filename}`);
-      
-    } catch (error: any) {
+      const filename = (response as UploadResponse)?.filename || (response as UploadResponse)?.data?.filename;
+
+      if (filename) {
+        onAvatarChange(filename);
+        // Update preview with server URL
+        setPreview(`http://localhost:5000/images/avatars/${filename}`);
+      } else {
+        throw new Error('Không nhận được tên file từ server');
+      }
+
+    } catch (error) {
       console.error('Upload error:', error);
-      alert(error.response?.data?.message || 'Lỗi khi upload ảnh');
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      alert((error as any)?.response?.data?.message || 'Lỗi khi upload ảnh');
       // Revert preview
       setPreview(currentAvatar ? `http://localhost:5000/images/avatars/${currentAvatar}` : null);
     } finally {

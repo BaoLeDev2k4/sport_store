@@ -9,7 +9,7 @@ interface OrderDetailModalProps {
   onClose: () => void;
 }
 
-const OrderDetailModal = ({ orderId, isOpen, onClose, refreshTrigger }: OrderDetailModalProps) => {
+const OrderDetailModal = ({ orderId, isOpen, onClose }: OrderDetailModalProps) => {
   const [order, setOrder] = useState<Order | null>(null);
   const [loading, setLoading] = useState(false);
 

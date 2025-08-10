@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { createProduct, updateProduct, getImagesList } from '../api/adminApi';
-import { Product, Category } from '../types';
+import { Product, Category, Variant } from '../types';
 import { X, Plus, Trash2, Package } from 'lucide-react';
 import ImageUpload from './ImageUpload';
 
@@ -32,7 +32,7 @@ const ProductModal = ({ product, categories, onClose, onSuccess }: ProductModalP
         image: '',
         quantity: 0
       }
-    ]
+    ] as Variant[]
   });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -207,7 +207,7 @@ const ProductModal = ({ product, categories, onClose, onSuccess }: ProductModalP
       }
     }
 
-    const newVariants = [];
+    const newVariants: Variant[] = [];
     for (const size of formData.sizes) {
       for (const color of formData.colors) {
         // Tìm variant cũ có cùng size và color để giữ lại giá và số lượng

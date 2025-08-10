@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { User } from '../types';
-import { Lock, AlertTriangle, X } from 'lucide-react';
+import { Lock, AlertTriangle } from 'lucide-react';
 
 interface LockAccountModalProps {
   show: boolean;
