@@ -31,9 +31,9 @@ const corsOptions = {
   origin: [
     'http://localhost:5173', // Local frontend
     'http://localhost:3000', // Local admin
-    process.env.CLIENT_URL, // Production frontend
-    process.env.ADMIN_URL   // Production admin
-  ].filter(Boolean), // Remove undefined values
+    process.env.CLIENT_URL || '', // Production frontend
+    process.env.ADMIN_URL || ''   // Production admin
+  ].filter(url => url !== ''), // Remove empty strings
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']

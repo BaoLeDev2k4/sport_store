@@ -63,16 +63,16 @@ router.get('/users/:id/stats', asyncHandler(getUserStats));
 router.put('/users/:id/status', asyncHandler(toggleUserStatus));
 
 // Orders Management
-router.get('/orders', asyncHandler(getAllOrders));
-router.get('/orders/:id', asyncHandler(getOrderById));
-router.patch('/orders/:id/status', asyncHandler(updateOrderStatus));
+router.get('/orders', getAllOrders);
+router.get('/orders/:id', getOrderById);
+router.patch('/orders/:id/status', updateOrderStatus);
 
 // Banners Management
-router.get('/banners', asyncHandler(getBannersAdmin));
-router.get('/banners/:id', asyncHandler(getBannerById));
-router.post('/banners', asyncHandler(createBanner));
-router.put('/banners/:id', asyncHandler(updateBanner));
-router.delete('/banners/:id', asyncHandler(deleteBanner));
+router.get('/banners', getBannersAdmin);
+router.get('/banners/:id', getBannerById);
+router.post('/banners', createBanner);
+router.put('/banners/:id', updateBanner);
+router.delete('/banners/:id', deleteBanner);
 
 // Admin Status Check
 router.get('/status', asyncHandler(checkAdminStatus));
